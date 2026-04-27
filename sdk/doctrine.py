@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Union
 
 from .parser import DoctrineParser
 from .validator import DoctrineValidator
@@ -21,8 +21,12 @@ class Doctrine:
     source: Optional[str] = None
 
     @classmethod
-    def load(cls, path: str | Path) -> "Doctrine":
+    def load(cls, path: Union[str, Path]) -> "Doctrine":
         path = Path(path)
+        if not path.exists() and path.suffix == "":
+            candidate = path.with_suffix(".doctrine")
+            if candidate.exists():
+                path = candidate
         return cls.from_text(path.read_text(encoding="utf-8-sig"), source=str(path))
 
     @classmethod
