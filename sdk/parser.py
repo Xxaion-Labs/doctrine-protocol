@@ -46,6 +46,8 @@ class DoctrineParser:
             key, value = line.split(":", 1)
             key = key.strip()
             value = value.strip()
+            if not value:
+                continue
             if re.match(r"^[A-Za-z_][A-Za-z0-9_-]*$", key):
                 metadata[key] = value
         return metadata
