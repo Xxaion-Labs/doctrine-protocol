@@ -31,26 +31,16 @@ DoctrineOS should be public anti-capture infrastructure.
 
 Public software components should use AGPLv3-or-later so public and network-hosted modified versions remain open under the same license family.
 
-## Public/Private Boundary
+## Development Scope
 
-Public DoctrineOS may include:
+Public DoctrineOS development should focus on:
 
 - architecture
 - runtime code
-- public default doctrines
+- default doctrine profiles
 - adapters
-- package/registry systems
+- package and registry systems
 - receipts and validation
 - documentation
 - tests
-
-Public DoctrineOS must not include:
-
-- private personal axioms
-- private doctrine bodies
-- private workflows
-- private local-stack internals
-- private continuity material
-- private identity or life data
-
-Private methods may inform design. They must not be published as source material.
+- open implementation milestones
