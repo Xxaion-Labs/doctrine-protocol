@@ -9,10 +9,13 @@ from .receipts import build_action_receipt, write_receipt
 from .state import StateStore
 
 
+DEFAULT_PROFILE_PATH = "profiles/default.doctrine"
+
+
 class DoctrineOSRuntime:
     def __init__(
         self,
-        profile_path: str = "standard_public_template.doctrine",
+        profile_path: str = DEFAULT_PROFILE_PATH,
         workspace: str = ".",
         state_dir: str = ".doctrineos",
     ):
@@ -27,6 +30,7 @@ class DoctrineOSRuntime:
         return {
             "system": "DoctrineOS",
             "profile": self.profile.name,
+            "profile_path": str(self.profile.path),
             "mount": "verified",
             "context_sha256": self.profile.context_sha256,
             "user_authority": "root",

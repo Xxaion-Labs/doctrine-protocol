@@ -26,6 +26,20 @@ Start here:
 - [DoctrineOS Roadmap](docs/doctrineos_roadmap.md)
 - [DoctrineOS Prototype Shell](docs/doctrineos_shell.md)
 
+## DoctrineOS Prototype Shell
+
+The `doctrineos` command is the first runnable DoctrineOS control surface.
+
+It loads a doctrine profile, mounts it, plans command intent, identifies needed capabilities, asks for permission where required, routes approved commands to safe adapters, writes action receipts, and records runtime state.
+
+```bash
+doctrineos --json
+doctrineos inspect workspace
+doctrineos --yes inspect workspace
+```
+
+Runtime state and receipts are written under `.doctrineos/` by default.
+
 ## Core Goals
 
 - Keep the user as the root authority.
