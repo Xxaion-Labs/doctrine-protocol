@@ -1,6 +1,6 @@
 # Examples
 
-These examples show how to use mounted Doctrine context in common AI workflows.
+These examples show how mounted Doctrine Protocol context can be used inside DoctrineOS-compatible AI workflows.
 
 ## Prompt context export
 
