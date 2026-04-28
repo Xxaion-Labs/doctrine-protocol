@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve Doctrine Protocol. Keep contributions small, clear, and easy to review.
+Thanks for helping improve DoctrineOS. Keep contributions small, clear, and easy to review.
 
 ## Start here
 
@@ -31,25 +31,26 @@ python tools/check_registry.py
 
 ## Good contribution types
 
-- Public doctrine nodes
-- SDK fixes
+- DoctrineOS runtime improvements
+- Doctrine Protocol SDK fixes
 - CLI improvements
-- Adapter examples
-- Documentation improvements
-- Tests and validation tooling
-- Issue triage
+- public doctrine nodes
+- adapter examples
+- documentation improvements
+- tests and validation tooling
+- issue triage
 
 ## Pull request rules
 
 - One logical change per PR.
 - Include a short summary and testing notes.
-- Do not include secrets, API keys, private prompts, private doctrine files, or personal data.
+- Do not include sensitive, non-public, credentialed, or personal material.
 - Keep public nodes generic and reusable.
 - Preserve user authority, non-autonomy, non-sentience, safety, clarity, and anti-drift principles.
 
 ## Security and privacy
 
-Never include private data in issues, pull requests, examples, tests, or fixtures.
+Never include sensitive or non-public data in issues, pull requests, examples, tests, or fixtures.
 
 If you find a security concern, open a minimal issue with no sensitive details and mark it clearly as security-related.
 
