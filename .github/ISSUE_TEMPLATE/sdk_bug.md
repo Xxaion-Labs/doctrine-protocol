@@ -1,6 +1,6 @@
 ---
-name: SDK bug
-about: Report a problem with the SDK, CLI, parser, validator, registry, or mount receipt behavior
+name: SDK or runtime bug
+about: Report a problem with the SDK, CLI, parser, validator, registry, mount receipts, or DoctrineOS runtime behavior
 title: "bug: "
 labels: bug
 ---
@@ -25,6 +25,6 @@ What should have happened?
 - OS:
 - Install method:
 
-## Safety check
+## Public hygiene check
 
-- [ ] This report does not include secrets, API keys, private prompts, personal data, or private doctrine material.
+- [ ] This report does not include secrets, API keys, credentials, sensitive material, non-public material, or personal data.
