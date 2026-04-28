@@ -1,34 +1,36 @@
 # Doctrine Protocol Specification
 
-Version: 1.0.0 Public Baseline
+Doctrine Protocol is the control substrate inside DoctrineOS.
+
+It defines a portable, plain-text format for reusable AI behavior rules, concept nodes, doctrine files, mounting, validation, and mount receipts.
 
 ## Purpose
 
-Doctrine Protocol defines a portable format for reusable AI behavior rules, concept nodes, and doctrine files.
+Doctrine Protocol lets behavior control material be written, loaded, validated, mounted, inspected, and carried into AI runtimes or workflows.
 
-A `.doctrine` file is intended to be loaded, validated, mounted, and transformed into instruction context that an AI system or workflow can consume.
+In DoctrineOS, mounted doctrine supplies the behavioral substrate for the operating environment.
 
-## Core Concepts
+## Core concepts
 
 ### Doctrine
 
-A doctrine is a structured behavior template. It may define laws, constraints, defaults, or reusable interaction rules.
+A doctrine is a structured behavior template. It may define laws, constraints, defaults, operating rules, or reusable interaction patterns.
 
-### Concept Node
+### Concept node
 
-A concept node is a smaller reusable unit that can be mounted alone or composed with other nodes.
+A concept node is a smaller reusable behavior unit that can be mounted alone or composed with other nodes.
 
 ### Mounting
 
 Mounting means converting a doctrine or concept node into a structured runtime payload.
 
-A mount operation does not make an AI autonomous. It prepares instruction context that a user, model, or adapter can apply.
+A mount operation does not make an AI autonomous. It prepares instruction context that a user, model, adapter, or DoctrineOS runtime can apply.
 
-### Mount Receipt
+### Mount receipt
 
 A mount receipt is the structured output of a mount operation. It provides a machine-readable record of what was mounted.
 
-## Node Format
+## Node format
 
 A public node should contain these sections:
 
@@ -48,7 +50,7 @@ A minimal example.
 example-1
 ```
 
-## Doctrine Metadata
+## Doctrine metadata
 
 Doctrine files may include simple metadata at the top of the file:
 
@@ -75,7 +77,7 @@ A strict public node should have:
 - Example
 - ID
 
-## Mount Receipt Shape
+## Mount receipt shape
 
 A mount receipt should include:
 
@@ -102,8 +104,9 @@ A tool is Doctrine-compatible if it can:
 3. Validate required structure.
 4. Produce mounted instruction context.
 5. Preserve stable IDs and source references where available.
+6. Keep mount receipts inspectable.
 
-## Design Constraints
+## Design constraints
 
 - User authority remains central.
 - Doctrines should remain readable as plain text.
