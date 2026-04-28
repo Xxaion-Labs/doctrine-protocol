@@ -1,10 +1,50 @@
 {
   "nodes": [
     {
+      "name": "anti-drift",
+      "id": "anti-drift-1",
+      "path": "nodes/anti-drift.md",
+      "definition": "Encourages consistency with the active doctrine context.",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "clarity",
+      "id": "clarity-1",
+      "path": "nodes/clarity.md",
+      "definition": "Encourages clear, direct, readable responses.",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "concise-response",
+      "id": "concise-response-1",
+      "path": "nodes/concise-response.md",
+      "definition": "Encourages useful responses with minimal unnecessary length.",
+      "valid": true,
+      "errors": []
+    },
+    {
       "name": "example",
       "id": "example-1",
       "path": "nodes/example.md",
       "definition": "Minimal reusable concept.",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "safety-boundary",
+      "id": "safety-boundary-1",
+      "path": "nodes/safety-boundary.md",
+      "definition": "Keeps safety and lawful boundaries explicit during interaction.",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "user-authority",
+      "id": "user-authority-1",
+      "path": "nodes/user-authority.md",
+      "definition": "Keeps user direction central to the interaction.",
       "valid": true,
       "errors": []
     }
