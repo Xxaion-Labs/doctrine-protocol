@@ -13,6 +13,18 @@ Doctrine Protocol provides a structured system for creating and mounting behavio
 
 It is built around **concept nodes**: reusable units that encode rules, context, and interaction patterns. The core public artifact is `standard_public_template.doctrine` in the repository root.
 
+## DoctrineOS Direction
+
+Doctrine Protocol is the control substrate for DoctrineOS: a public, doctrine-native AI operating system direction.
+
+DoctrineOS aims to become a real user-controlled computing environment where AI is part of the operating system itself and doctrine supplies the behavioral control layer.
+
+Start here:
+
+- [DoctrineOS Direction](DOCTRINE_OS.md)
+- [DoctrineOS Architecture Seed](DOCTRINE_OS_ARCHITECTURE.md)
+- [DoctrineOS Roadmap](docs/doctrineos_roadmap.md)
+
 ## Core Goals
 
 - Keep the user as the root authority.
@@ -91,6 +103,7 @@ print(receipt["instruction_context"])
 - `tests/` — SDK and example tests
 - `registry/` — generated public node registry
 - `examples/` — adapter and workflow examples
+- `docs/` — DoctrineOS and project docs
 
 ## Development
 
