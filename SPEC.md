@@ -62,6 +62,22 @@ body_id: standard_public_doctrine_body_v1
 
 Metadata is optional, but `body_id` is recommended for stable references.
 
+## Doctrine filetype v1
+
+`.doctrine` files are plain UTF-8 text files with a Markdown semantic layer and optional JSON sentinel blocks for machine-readable control material.
+
+A sentinel block has this form:
+
+```text
+<<<NAME_JSON>>>
+{"key":"value"}
+<<<END_NAME_JSON>>>
+```
+
+A public parser should report malformed sentinel JSON instead of silently ignoring it.
+
+A doctrine file should remain standalone for mount. External files may inform a doctrine, but should not be required to read, validate, or mount it.
+
 ## Validation
 
 A valid doctrine should have:
@@ -76,6 +92,13 @@ A strict public node should have:
 - Usage
 - Example
 - ID
+
+A strict `.doctrine` file should additionally have:
+
+- UTF-8 readable text
+- parseable top metadata when metadata is present
+- parseable `##` sections
+- parseable JSON sentinel blocks when sentinel blocks are present
 
 ## Mount receipt shape
 
@@ -105,6 +128,8 @@ A tool is Doctrine-compatible if it can:
 4. Produce mounted instruction context.
 5. Preserve stable IDs and source references where available.
 6. Keep mount receipts inspectable.
+
+A tool is `.doctrine` filetype-compatible if it can also parse JSON sentinel blocks and report sentinel parse errors.
 
 ## Design constraints
 
