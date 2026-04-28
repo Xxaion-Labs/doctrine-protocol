@@ -98,6 +98,8 @@ It also includes a **Structured Authority Kernel**, state truth ladder, anti-dri
 
 - [Specification](SPEC.md) — protocol definitions, node format, validation, and mount receipt shape
 - [Compatibility](COMPATIBILITY.md) — `.doctrine compatible` requirements and adoption language
+- [Examples](examples/README.md) — prompt export, API payload, and local model examples
+- [Nodes](nodes/README.md) — public node library and node format
 - [Roadmap](ROADMAP.md) — public development path
 - [Changelog](CHANGELOG.md) — release history
 - [Contributing](CONTRIBUTING.md) — contribution workflow and safety rules
@@ -110,6 +112,7 @@ It also includes a **Structured Authority Kernel**, state truth ladder, anti-dri
 - `tools/` — Validation and helper tools
 - `tests/` — SDK smoke tests
 - `registry/` — Generated public node registry
+- `examples/` — Adapter and workflow examples
 
 ## Development
 
