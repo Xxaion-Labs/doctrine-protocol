@@ -1,6 +1,8 @@
 # Public Nodes
 
-Doctrine nodes are small reusable behavior units. Each node can be mounted alone or composed with other doctrine content.
+Doctrine nodes are small reusable behavior units for Doctrine Protocol and DoctrineOS-compatible runtimes.
+
+Each node can be mounted alone or composed with other doctrine content.
 
 ## Node format
 
