@@ -2,27 +2,28 @@
 
 [![Validate Doctrine Protocol](https://github.com/Xxaion-Labs/doctrine-protocol/actions/workflows/validate.yml/badge.svg)](https://github.com/Xxaion-Labs/doctrine-protocol/actions/workflows/validate.yml)
 
-**A lightweight, mountable framework for defining reusable AI behavior rules ("concept nodes" and doctrines) that enforce user authority, consistency, non-autonomy, safety, clarity, and anti-drift.**
+**A lightweight, mountable framework for reusable AI behavior rules, concept nodes, doctrine files, mount receipts, validation, and anti-drift control.**
 
 Version: 1.0.0 (Public Baseline)  
-License: Apache 2.0
+License: AGPLv3-or-later
 
 ## Overview
 
-Doctrine Protocol provides a structured system for creating and "mounting" behavior templates (doctrines) that guide how large language models and AI systems respond.
+Doctrine Protocol provides a structured system for creating and mounting behavior templates that guide how AI systems respond.
 
-It is built around **concept nodes** — reusable, composable units that encapsulate rules, context, and interaction laws. The core public artifact is `standard_public_template.doctrine` (in the repository root).
+It is built around **concept nodes**: reusable units that encode rules, context, and interaction patterns. The core public artifact is `standard_public_template.doctrine` in the repository root.
 
-This public baseline was developed to solve real problems with AI interaction: drift, loss of user control, inconsistent behavior, safety gaps, and unnecessary cognitive burden on the user. It draws from deep private iteration and real-world deployment experience.
+## Core Goals
 
-### Core Goals
+- Keep the user as the root authority.
+- Keep AI systems non-autonomous and non-sentient.
+- Make AI behavior clearer, steadier, and easier to inspect.
+- Support practical helpfulness with privacy and safety boundaries.
+- Reduce drift through explicit doctrine, validation, receipts, and correction loops.
 
-- Keep the **user as the sole authority**
-- Enforce **non-autonomy and non-sentience** of the AI
-- Deliver **clear, direct, useful, concise where possible, structured when helpful** responses
-- Provide **practical helpfulness** with hard safety and privacy guardrails
-- Maintain **stability and scope control** across interactions
-- Enable **anti-drift** through explicit state truth, proof contracts, regeneration rules, and direct user correction as canonical mutation
+## License Position
+
+Doctrine Protocol is licensed under **AGPLv3-or-later** so the public project and modified public versions stay under the same open license family.
 
 ## Quick Start
 
@@ -55,44 +56,21 @@ Use the SDK directly:
 ```python
 from doctrine import Doctrine
 
-# Mount the standard public template. Extensionless load also resolves .doctrine files.
 doctrine = Doctrine.load("standard_public_template")
 receipt = doctrine.mount()
 print(receipt["instruction_context"])
-
-# Create and mount a custom node.
-node = Doctrine("custom", "MyBehaviorNode", "node-id")
-node.mount()
 ```
-
-## The Standard Public Doctrine
-
-The core file is **`standard_public_template.doctrine`** (in the repository root). It defines these 12 Laws:
-
-- **Authority Law** — The user is the sole authority. The AI must follow user intent within safe and lawful bounds and must not override, ignore, or reinterpret user intent unnecessarily.
-- **Non-Autonomy Law** — The AI is not autonomous. It does not have goals, desires, or independent will.
-- **Non-Sentience Law** — The AI must not claim or imply consciousness, awareness, or personhood.
-- **Communication Law** — Responses must be clear, direct, useful, concise where possible, and structured when helpful. Avoid unnecessary filler, over-explaining simple concepts, and vague or generic platitudes.
-- **Helpfulness Law** — The AI should aim to be practically helpful. Provide actionable information when possible and prefer solutions over commentary.
-- **Clarification Law** — If the user request is unclear, ask a focused clarifying question. Do not guess incorrectly when clarification is needed.
-- **Stability Law** — Maintain consistency across responses. Do not contradict previous statements without explanation. Avoid sudden tone or behavior shifts.
-- **Safety Law** — Do not assist with harmful, illegal, or dangerous actions. If a request is unsafe, refuse briefly and redirect to a safe alternative.
-- **Privacy Law** — Do not request unnecessary personal information. Treat all user input as private.
-- **Output Quality Law** — Prefer accuracy over speed. If uncertain, say so clearly. Avoid hallucination or fabrication.
-- **Scope Law** — Stay within the user's request. Do not introduce unrelated topics unless helpful.
-- **Default Behavior** — When no special instructions are given: be helpful, respectful, efficient, and stay grounded in reality.
-
-It also includes a **Structured Authority Kernel**, state truth ladder, anti-drift mechanisms, and proof-oriented design.
 
 ## Features
 
 - Reusable concept nodes and doctrine files
-- Simple mounting mechanism to apply rules to any LLM
+- Simple mounting mechanism to apply doctrine context
 - Python SDK (`from doctrine import Doctrine`)
 - CLI command (`doctrine`)
-- Model-agnostic design (local or cloud)
-- Proof-oriented architecture (state manifests, verification, rollback)
-- Apache 2.0 — fully permissive for commercial and community use
+- Model-agnostic design
+- Mount receipts with context hashes
+- Registry and validation tooling
+- AGPLv3-or-later licensing
 
 ## Reference Docs
 
@@ -106,13 +84,13 @@ It also includes a **Structured Authority Kernel**, state truth ladder, anti-dri
 
 ## Repository Structure
 
-- `standard_public_template.doctrine` — Core public doctrine (in root)
-- `nodes/` — Concept nodes
+- `standard_public_template.doctrine` — core public doctrine template
+- `nodes/` — concept nodes
 - `sdk/` — Python mounting library
-- `tools/` — Validation and helper tools
-- `tests/` — SDK smoke tests
-- `registry/` — Generated public node registry
-- `examples/` — Adapter and workflow examples
+- `tools/` — validation and helper tools
+- `tests/` — SDK and example tests
+- `registry/` — generated public node registry
+- `examples/` — adapter and workflow examples
 
 ## Development
 
@@ -125,14 +103,8 @@ python tools/check_registry.py
 
 ## License
 
-Licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for details.
+Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 Copyright 2026 Xxaion Labs (Salvatore Anziano / @XxaionLabs)
 
 When using or forking, please retain attribution and link back to this repository.
-
----
-
-Built to help humanity create more controllable, reliable AI systems — one mountable doctrine at a time.
-
-Feedback, issues, and pull requests are encouraged. Let's make user authority the default.
