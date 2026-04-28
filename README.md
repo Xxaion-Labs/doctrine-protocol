@@ -24,6 +24,7 @@ Start here:
 - [DoctrineOS Direction](DOCTRINE_OS.md)
 - [DoctrineOS Architecture Seed](DOCTRINE_OS_ARCHITECTURE.md)
 - [DoctrineOS Roadmap](docs/doctrineos_roadmap.md)
+- [DoctrineOS Prototype Shell](docs/doctrineos_shell.md)
 
 ## Core Goals
 
@@ -49,6 +50,13 @@ Mount the standard public doctrine:
 
 ```bash
 doctrine mount standard_public_template.doctrine
+```
+
+Run the DoctrineOS prototype shell:
+
+```bash
+doctrineos --json
+doctrineos inspect workspace
 ```
 
 Validate the example node:
@@ -79,6 +87,7 @@ print(receipt["instruction_context"])
 - Simple mounting mechanism to apply doctrine context
 - Python SDK (`from doctrine import Doctrine`)
 - CLI command (`doctrine`)
+- DoctrineOS prototype shell command (`doctrineos`)
 - Model-agnostic design
 - Mount receipts with context hashes
 - Registry and validation tooling
@@ -97,10 +106,12 @@ print(receipt["instruction_context"])
 ## Repository Structure
 
 - `standard_public_template.doctrine` — core public doctrine template
+- `profiles/` — DoctrineOS profile examples
 - `nodes/` — concept nodes
 - `sdk/` — Python mounting library
+- `doctrineos/` — DoctrineOS prototype shell and runtime
 - `tools/` — validation and helper tools
-- `tests/` — SDK and example tests
+- `tests/` — SDK, example, and DoctrineOS tests
 - `registry/` — generated public node registry
 - `examples/` — adapter and workflow examples
 - `docs/` — DoctrineOS and project docs
