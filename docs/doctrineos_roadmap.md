@@ -69,10 +69,6 @@ Goal: move from AI-native userland toward deeper system integration.
 - hardware/device capability models
 - stronger sandboxing
 
-## Never Publish
+## Release Discipline
 
-- private personal axioms
-- private doctrine bodies
-- private workflows
-- private identity data
-- private local-stack internals
+Every public release should remain generic, reusable, auditable, and aligned with the AGPLv3-or-later anti-capture license position.
