@@ -1,54 +1,110 @@
 # Roadmap
 
-Doctrine Protocol is developed as a public, plain-text, mountable protocol for reusable AI behavior rules and concept nodes.
+DoctrineOS is the public AI-native operating system prototype built on Doctrine Protocol.
 
-## v1.0.0 Public Baseline
+The roadmap moves from protocol foundation to userland prototype, then into local runtime, bootable environment, AI-native desktop, and deeper operating-system integration.
 
-Status: active.
+## Phase 0: Protocol Foundation
 
-- Public standard doctrine template
-- Python SDK
+Status: complete.
+
+- Doctrine Protocol SDK
 - CLI for mount, validate, inspect, and registry build
-- Parser and validator
-- Mount receipts with context hashes
-- Public specification
-- Compatibility guidance
-- Starter node registry
-- GitHub Actions validation
+- parser and validator
+- mount receipts with context hashes
+- public standard doctrine template
+- starter public nodes
+- generated node registry
+- validation workflow
+- AGPLv3-or-later anti-capture license
 
-## v1.1 Reference Polish
+## Phase 1: Userland Prototype
 
-Goal: make the public protocol easier to understand, cite, and extend.
+Status: complete.
 
-- Expand examples
-- Add adapter guides
-- Improve contribution templates
-- Strengthen registry validation
-- Improve documentation navigation
+Goal: prove the control spine before building a full OS image.
 
-## v1.2 Adapter Examples
+Complete:
 
-Goal: make mounted doctrine easier to apply across AI workflows.
+- DoctrineOS shell
+- doctrine profile loader
+- mount receipt display
+- safe command router
+- stub adapters
+- action log
+- permission prompts
+- state manifest
+- default DoctrineOS profile
+- receipt and state tests
 
-- Prompt context export example
-- Local model example
-- Generic API wrapper example
-- Plain text mount receipt example
+The current spine is:
 
-## v1.3 Public Node Library
+```text
+doctrine profile -> mount -> command -> capability -> permission -> adapter -> receipt -> state
+```
 
-Goal: grow reusable public concept nodes.
+## Phase 2: Local Runtime
 
-- Node proposal workflow
-- More public-safe starter nodes
-- Better registry metadata
-- Example node packs for common behavior patterns
+Status: next.
 
-## v2.0 Compatibility Ecosystem
+Goal: make DoctrineOS useful on a normal machine.
 
-Goal: make `.doctrine compatible` recognizable across projects.
+Planned:
 
-- Compatibility badge guidance
-- Implementation checklist
-- Third-party adapter notes
-- Public interoperability examples
+- capability kernel
+- receipt ledger
+- filesystem adapter
+- project workspace model
+- local model adapter
+- safe terminal adapter with permission gates
+- config and profile manager
+- rollback points
+
+## Phase 3: Bootable Environment
+
+Goal: ship a real bootable environment.
+
+Planned:
+
+- Linux-based image
+- DoctrineOS shell as primary interface
+- local-first setup wizard
+- profile mounting at boot
+- system state dashboard
+
+## Phase 4: AI-Native Desktop
+
+Goal: make the whole environment doctrine-aware.
+
+Planned:
+
+- doctrine-aware launcher
+- app and workflow registry
+- node package manager
+- visible receipts
+- permission ledger
+- user-controlled automation queues
+
+## Phase 5: Deeper OS Integration
+
+Goal: move from AI-native userland toward deeper system integration.
+
+Planned:
+
+- service supervision
+- policy-governed background tasks
+- tighter filesystem indexing
+- hardware and device capability models
+- stronger sandboxing
+
+## Release discipline
+
+Every public release should remain:
+
+- generic
+- reusable
+- auditable
+- user-governed
+- non-autonomous
+- AGPLv3-or-later
+- aligned with DoctrineOS as public-good infrastructure
