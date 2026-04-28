@@ -1,5 +1,3 @@
-♾️Free and Open Source Forever♾️
-
 # DoctrineOS
 
 [![Validate DoctrineOS](https://github.com/Xxaion-Labs/DoctrineOS/actions/workflows/validate.yml/badge.svg)](https://github.com/Xxaion-Labs/DoctrineOS/actions/workflows/validate.yml)
