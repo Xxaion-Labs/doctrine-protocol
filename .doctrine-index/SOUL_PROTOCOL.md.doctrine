@@ -1,14 +1,14 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_540a0cd1f9508a18
+body_id: public_doctrine_l1_46dccca413afe25b
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
-source_path: pyproject.toml
-source_sha256: 540a0cd1f9508a18fcee476827547f9d53945f16e90f23daff2ce6bb0c79912d
+source_path: SOUL_PROTOCOL.md
+source_sha256: 46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e
 projection_class: public_safe_index
 validation_state: generated_unverified
 
-# Public Doctrine L1 Companion — `pyproject.toml`
+# Public Doctrine L1 Companion — `SOUL_PROTOCOL.md`
 
 ## Definition
 Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_540a0cd1f9508a18
+public_doctrine_l1_46dccca413afe25b
 
 ## Claims supported
 
@@ -38,11 +38,11 @@ public release beyond repository contents approved
 
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
-  "companion_path": ".doctrine-index/pyproject.toml.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.835158Z",
-  "record_id": "public_doctrine_l1_540a0cd1f9508a18",
+  "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
+  "compiled_at_utc": "2026-05-01T19:19:26.816350Z",
+  "record_id": "public_doctrine_l1_46dccca413afe25b",
   "schema_version": "public_doctrine_l1_index_v1",
-  "source_path": "pyproject.toml",
+  "source_path": "SOUL_PROTOCOL.md",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
@@ -50,9 +50,9 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
 {
   "source_embedded": false,
-  "source_path": "pyproject.toml",
-  "source_sha256": "540a0cd1f9508a18fcee476827547f9d53945f16e90f23daff2ce6bb0c79912d",
-  "source_size_bytes": 867,
+  "source_path": "SOUL_PROTOCOL.md",
+  "source_sha256": "46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e",
+  "source_size_bytes": 1696,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -82,11 +82,11 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
-  "companion_path": ".doctrine-index/pyproject.toml.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.835158Z",
-  "payload_sha256_excluding_this_certificate": "740e41f4260c8ba0b236749795015582f7f7fb3c712e907cf850df18b0e41169",
-  "source_path": "pyproject.toml",
-  "source_sha256": "540a0cd1f9508a18fcee476827547f9d53945f16e90f23daff2ce6bb0c79912d",
+  "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
+  "compiled_at_utc": "2026-05-01T19:19:26.816350Z",
+  "payload_sha256_excluding_this_certificate": "f9971de15edf647023c9e3a108714c7361e96856cef9caeca60fc86adbe1a121",
+  "source_path": "SOUL_PROTOCOL.md",
+  "source_sha256": "46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

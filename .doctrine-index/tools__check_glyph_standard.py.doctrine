@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tools__check_glyph_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:04:55.188619Z",
+  "compiled_at_utc": "2026-05-01T19:19:26.844754Z",
   "record_id": "public_doctrine_l1_ee3ddc05dab61a6c",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tools/check_glyph_standard.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tools__check_glyph_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:04:55.188619Z",
-  "payload_sha256_excluding_this_certificate": "9b1d310f7b6c1c09c5ad685def61778ca49665144c66cda01c7eb8a767ba5ab4",
+  "compiled_at_utc": "2026-05-01T19:19:26.844754Z",
+  "payload_sha256_excluding_this_certificate": "dbfc9776aea196cf7f57f678f370a5fba6b4ba74bd0e03bec9cea9a341ce307f",
   "source_path": "tools/check_glyph_standard.py",
   "source_sha256": "ee3ddc05dab61a6c807c8f97c5ecf18ab95f1c504c65c78960ab04cb975cde8d",
   "status": "ACTIVE"
