@@ -47,41 +47,41 @@
       "path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json"
     },
     {
-      "check": "private_payload_absent",
-      "needle": "Xxen.soul payload present",
+      "check": "restricted_payload_absent",
+      "needle": "implementation-specific payload present",
       "ok": true,
       "path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json"
     },
     {
-      "check": "private_payload_absent",
-      "needle": "private Xxen.soul payload present",
+      "check": "restricted_payload_absent",
+      "needle": "restricted extension payload present",
       "ok": true,
       "path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json"
     },
     {
-      "check": "private_payload_absent",
-      "needle": "private user attunement",
+      "check": "restricted_payload_absent",
+      "needle": "non-public attunement data",
       "ok": true,
       "path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json"
     },
     {
-      "check": "private_payload_absent",
-      "needle": "private invention chronology included",
+      "check": "restricted_payload_absent",
+      "needle": "non-public invention chronology included",
       "ok": true,
       "path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json"
     }
   ],
-  "created_at_utc": "2026-05-01T00:35:44.063886Z",
+  "created_at_utc": "2026-05-01T07:19:02.100025Z",
   "failure_classes_guarded": [
     "PUBLIC_L1_RECEIPT_STALE",
     "PUBLIC_GREEN_CLAIM_FROM_PARTIAL_PROOF",
-    "PUBLIC_PRIVATE_PAYLOAD_LEAK",
+    "PUBLIC_RESTRICTED_PAYLOAD_LEAK",
     "PUBLIC_WORKFLOW_DRIFT",
     "PUBLIC_STATUS_WITHOUT_RECEIPT"
   ],
   "failure_count": 0,
   "failures": [],
   "ok": true,
-  "receipt_id": "PUBLIC_SINGULARITY_SWEEP",
+  "receipt_id": "PUBLIC_HYGIENE_SWEEP",
   "scope": "public_doctrineos_l1_hygiene"
 }
