@@ -1,69 +1,17 @@
 # Prototype Shell
 
-The DoctrineOS prototype shell is the first runnable operating surface for DoctrineOS.
+The Soul Protocol prototype shell is the first runnable operating surface for the public compatibility runtime.
 
-It proves the control spine before a full desktop, distro, or kernel-level integration.
+It proves the control spine before broader system integration.
 
-## Run
+## Use
 
-Start the interactive shell:
-
-```bash
-doctrineos
-```
-
-Print boot status as JSON:
-
-```bash
-doctrineos --json
-```
-
-Run one command:
-
-```bash
-doctrineos inspect workspace
-```
-
-Approve a permissioned command for scripts or tests:
-
-```bash
-doctrineos --yes inspect workspace
-```
-
-## What it proves
-
-The shell can:
-
-- load a doctrine profile
-- mount the doctrine profile
-- emit mount-aware action receipts
-- accept user commands
-- plan command intent
-- identify needed capabilities
-- ask permission for capability use
-- route approved commands to safe stub adapters
-- log state
-- refuse unapproved permissioned actions
-
-## Current capabilities
-
-- `files.read`: asks before inspecting workspace files
-- `shell.run`: modeled as permissioned, not implemented yet
-- `network.access`: off by default
-- `model`: stub
+The shell can load a compatibility profile, mount it, emit receipts, accept user direction, identify required capabilities, request approval, route approved actions to safe adapters, record state, and refuse unapproved actions.
 
 ## State and receipts
 
-By default, runtime state is written under:
+Runtime state is currently written under the compatibility state directory.
 
-```text
-.doctrineos/
-```
-
-Action receipts are written under:
-
-```text
-.doctrineos/receipts/
-```
+Action receipts are written under the compatibility receipts directory.
 
 This prototype is intentionally small, inspectable, and safe by default.
