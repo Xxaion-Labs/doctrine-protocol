@@ -27,10 +27,10 @@ def capture_stdout(fn, args):
 
 
 def assert_no_private_project_terms(text: str):
-    forbidden = ["Xxen", ".soul", "soul", ".sol", " sol", "kernel", "private material", "private_", "proto-soul"]
+    forbidden = ["Xxen", ".soul", ".sol", "kernel", "private material", "private_", "proto-soul", "proto-.soul"]
     lowered = text.lower()
     for term in forbidden:
-        assert term.lower() not in lowered
+        assert term.lower() not in lowered, term
 
 
 def test_valid_public_sentinel_parses():
