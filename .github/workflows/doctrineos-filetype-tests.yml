@@ -1,0 +1,30 @@
+name: DoctrineOS Filetype Tests
+
+on:
+  push:
+    branches:
+      - doctrineos-native-filetype-subset-v1
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'sdk/**'
+      - 'tests/**'
+      - 'examples/**'
+      - 'scripts/run_filetype_tests.py'
+      - '.github/workflows/doctrineos-filetype-tests.yml'
+
+jobs:
+  filetype-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run DoctrineOS filetype tests
+        run: python3 scripts/run_filetype_tests.py
