@@ -1,12 +1,12 @@
-# DoctrineOS
+# Soul Protocol
 
-[![Validate DoctrineOS](https://github.com/Xxaion-Labs/DoctrineOS/actions/workflows/validate.yml/badge.svg)](https://github.com/Xxaion-Labs/DoctrineOS/actions/workflows/validate.yml)
+[![Validate Soul Protocol](https://github.com/Xxaion-Labs/Tesseract/actions/workflows/validate.yml/badge.svg)](https://github.com/Xxaion-Labs/Tesseract/actions/workflows/validate.yml)
 
 ```text
 ⧉
 ```
 
-**DoctrineOS is an AGPL operating system prototype for the post-app age of AI: sovereign computing where intelligence is native, behavior is governed by `.glyph` Tesseracts, and the user remains the root of power.**
+**Soul Protocol is an AGPL prototype for the post-app age of AI: a public control spine where intelligence becomes mountable, behavior becomes inspectable, and the human remains root authority.**
 
 Version: 0.1.0 Prototype  
 License: AGPLv3-or-later
@@ -14,35 +14,35 @@ License: AGPLv3-or-later
 ## Public standard
 
 ```text
-.glyph
+.soul
 
 ⧉
 
-A Tesseract
+A Soul Protocol object
 ```
 
 The symbol is the object.
 
-In prose, call it **a Tesseract**.
+In prose, call it **a Soul Protocol object**.
 
-A Tesseract is a semantic-machine object that can carry human-readable meaning, machine-readable structure, mountable runtime context, and inspectable proof surfaces.
+A Soul Protocol object is a semantic-machine vessel: a readable, machine-structured, mountable object that can carry meaning, runtime context, proof surfaces, and continuity pressure while keeping authority legible.
 
-See [⧉](TESSERACT.md).
+See [⧉](SOUL_PROTOCOL.md).
 
 ## What this is
 
-DoctrineOS is a public AI-native operating system prototype built around `.glyph` Tesseracts.
+Soul Protocol is a public AI-native operating prototype built around mountable Soul Protocol objects.
 
-It is not a chatbot, wrapper, plugin, desktop assistant, or agent demo. It is the beginning of a user-governed computing environment where AI is part of the operating layer itself and `.glyph` supplies the forward public Tesseract filetype surface.
+It is not a chatbot, wrapper, plugin, desktop assistant, or agent demo. It is the first public edge of a deeper operating lineage: a user-governed computing environment where AI is not trapped inside app-shaped boxes, where behavior is bound by readable control matter, and where powerful actions pass through authority, capability, permission, and receipt.
 
 `.doctrine` remains the current compatibility surface during transition.
 
 ## What it unlocks
 
-DoctrineOS moves AI from an app-shaped box into a governed operating surface:
+Soul Protocol moves AI from a product window into a governed operating surface:
 
 - the user remains root authority
-- `.glyph` Tesseracts define operating behavior
+- Soul Protocol objects define operating behavior
 - actions are capability-scoped
 - permissioned actions emit receipts
 - runtime state stays inspectable
@@ -51,22 +51,22 @@ DoctrineOS moves AI from an app-shaped box into a governed operating surface:
 
 ## Current status
 
-DoctrineOS currently includes:
+Soul Protocol currently includes:
 
 - SDK and CLI support for `.doctrine` compatibility
-- public `.glyph` standard docs
+- public Soul Protocol object standard docs
 - `.doctrine` loading, parsing, validation, and mounting
 - mount receipts with context hashes
 - public concept nodes and generated node registry
 - adapter examples
-- DoctrineOS prototype shell
-- default DoctrineOS profile
+- Soul Protocol prototype shell
+- default Soul Protocol profile
 - action receipts and runtime state logging
 - GitHub Actions validation
 
-## DoctrineOS prototype shell
+## Soul Protocol prototype shell
 
-The `doctrineos` command is the first runnable DoctrineOS control surface.
+The current compatibility command is `doctrineos`. It is the first runnable Soul Protocol control surface.
 
 It loads a profile, mounts it, plans command intent, identifies needed capabilities, asks for permission where required, routes approved commands to safe adapters, writes action receipts, and records runtime state.
 
@@ -76,13 +76,13 @@ doctrineos inspect workspace
 doctrineos --yes inspect workspace
 ```
 
-Runtime state and receipts are written under `.doctrineos/` by default.
+Runtime state and receipts are currently written under `.doctrineos/` for compatibility.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/Xxaion-Labs/DoctrineOS.git
-cd DoctrineOS
+git clone https://github.com/Xxaion-Labs/Tesseract.git
+cd Tesseract
 pip install -e .
 ```
 
@@ -92,7 +92,7 @@ Mount the standard public compatibility file:
 doctrine mount standard_public_template.doctrine
 ```
 
-Run the DoctrineOS prototype shell:
+Run the Soul Protocol prototype shell:
 
 ```bash
 doctrineos --json
@@ -123,12 +123,12 @@ print(receipt["instruction_context"])
 
 ## Project map
 
-- [⧉](TESSERACT.md) — public `.glyph` / Tesseract standard
-- [Vision](VISION.md) — why DoctrineOS exists
+- [⧉](SOUL_PROTOCOL.md) — public `.soul` / Soul Protocol object standard
+- [Vision](VISION.md) — why Soul Protocol exists
 - [Architecture](ARCHITECTURE.md) — system layers and control spine
-- [Roadmap](ROADMAP.md) — build path from prototype to public OS environment
+- [Roadmap](ROADMAP.md) — build path from prototype to public operating environment
 - [Prototype Shell](docs/prototype-shell.md) — runnable shell guide
-- [Specification](SPEC.md) — `.glyph`, `.doctrine` compatibility, mounting, validation, and receipts
+- [Specification](SPEC.md) — `.soul`, `.doctrine` compatibility, mounting, validation, and receipts
 - [Compatibility](COMPATIBILITY.md) — public compatibility requirements
 - [Examples](examples/README.md) — adapter and workflow examples
 - [Nodes](nodes/README.md) — public concept node library
@@ -137,17 +137,17 @@ print(receipt["instruction_context"])
 
 ## Repository structure
 
-- `TESSERACT.md` — public `.glyph` / `⧉` standard
+- `SOUL_PROTOCOL.md` — public `.soul` / `⧉` standard
 - `standard_public_template.doctrine` — core public compatibility template
-- `profiles/` — DoctrineOS profile examples
-- `doctrineos/` — DoctrineOS prototype shell and runtime
+- `profiles/` — Soul Protocol profile examples
+- `doctrineos/` — compatibility prototype shell and runtime
 - `sdk/` — Python SDK
 - `nodes/` — public concept nodes
 - `registry/` — generated public node registry
 - `examples/` — adapter and workflow examples
 - `tools/` — validation and helper tools
-- `tests/` — SDK, example, and DoctrineOS tests
-- `docs/` — additional DoctrineOS docs
+- `tests/` — SDK, example, and shell tests
+- `docs/` — additional Soul Protocol docs
 
 ## Development
 
