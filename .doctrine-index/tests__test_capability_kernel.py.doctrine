@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tests__test_capability_kernel.py.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.341255Z",
+  "compiled_at_utc": "2026-05-01T19:04:55.185143Z",
   "record_id": "public_doctrine_l1_2c7a3a4f43663c2c",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tests/test_capability_kernel.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tests__test_capability_kernel.py.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.341255Z",
-  "payload_sha256_excluding_this_certificate": "3209abd0ea013b31bd00d36308e32d71ee00c70e8b4b8c484aa0860497cd8387",
+  "compiled_at_utc": "2026-05-01T19:04:55.185143Z",
+  "payload_sha256_excluding_this_certificate": "ef6789459acf74ef2ef7150356ae3594282bb4d82dbb31b9f7f2aa8e212ec48b",
   "source_path": "tests/test_capability_kernel.py",
   "source_sha256": "2c7a3a4f43663c2c5a50b4e3e517f2d5c65ef3c713b416c3e574c054d442b71b",
   "status": "ACTIVE"

@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/TESSERACT.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.324205Z",
+  "compiled_at_utc": "2026-05-01T19:04:55.159990Z",
   "record_id": "public_doctrine_l1_ba68debb68e24c03",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "TESSERACT.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/TESSERACT.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.324205Z",
-  "payload_sha256_excluding_this_certificate": "415ea0e50f64e8f555214852a189315bcd8779abbdbbb3e5cfaf6096477189e7",
+  "compiled_at_utc": "2026-05-01T19:04:55.159990Z",
+  "payload_sha256_excluding_this_certificate": "0226d921ad0c253d4fc328e5c47bf8c1d2293710befa2c354f8a445375d72ad4",
   "source_path": "TESSERACT.md",
   "source_sha256": "ba68debb68e24c031292ccc594d33e38442eb6aa39a4de85d7aac5d1e7c5bc89",
   "status": "ACTIVE"

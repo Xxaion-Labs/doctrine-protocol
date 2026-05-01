@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tools__singularity_sweep.py.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.344413Z",
+  "compiled_at_utc": "2026-05-01T19:04:55.190345Z",
   "record_id": "public_doctrine_l1_1acfdd3df27d45b7",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tools/singularity_sweep.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tools__singularity_sweep.py.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.344413Z",
-  "payload_sha256_excluding_this_certificate": "6115675c892e3acc1219405aa1b4654614e8cdaa0fa21c2d08bf603535fdde78",
+  "compiled_at_utc": "2026-05-01T19:04:55.190345Z",
+  "payload_sha256_excluding_this_certificate": "ac8f66e91e3a6f9c4aa90307a209a6c50b1b144478b7fdc49d36c62d41901ca1",
   "source_path": "tools/singularity_sweep.py",
   "source_sha256": "1acfdd3df27d45b700c1d3c2a3570273752c8c6a18f9f37684a4fe7906846f56",
   "status": "ACTIVE"

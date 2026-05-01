@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_5a23987748cd0f06
+body_id: public_doctrine_l1_a07261d5212fd696
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: COMPATIBILITY.md
-source_sha256: 5a23987748cd0f06750c1d982dc14b442b603b98b221fd37281b9d89db988ec6
+source_sha256: a07261d5212fd696c91c0c69ae52a409c3bceecc40b9ca09317c3a2bf93df14c
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_5a23987748cd0f06
+public_doctrine_l1_a07261d5212fd696
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/COMPATIBILITY.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.319746Z",
-  "record_id": "public_doctrine_l1_5a23987748cd0f06",
+  "compiled_at_utc": "2026-05-01T19:04:55.153573Z",
+  "record_id": "public_doctrine_l1_a07261d5212fd696",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "COMPATIBILITY.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "COMPATIBILITY.md",
-  "source_sha256": "5a23987748cd0f06750c1d982dc14b442b603b98b221fd37281b9d89db988ec6",
-  "source_size_bytes": 962,
+  "source_sha256": "a07261d5212fd696c91c0c69ae52a409c3bceecc40b9ca09317c3a2bf93df14c",
+  "source_size_bytes": 1360,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/COMPATIBILITY.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.319746Z",
-  "payload_sha256_excluding_this_certificate": "981cc18464b6f3db3f09e7a0136e28202ab2cf699f37c50b9a57d9ede9441624",
+  "compiled_at_utc": "2026-05-01T19:04:55.153573Z",
+  "payload_sha256_excluding_this_certificate": "5b76671819698707258845eb348b7cb00ccd1eddc788e86765ac3331014a5a49",
   "source_path": "COMPATIBILITY.md",
-  "source_sha256": "5a23987748cd0f06750c1d982dc14b442b603b98b221fd37281b9d89db988ec6",
+  "source_sha256": "a07261d5212fd696c91c0c69ae52a409c3bceecc40b9ca09317c3a2bf93df14c",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_92c9d99137e141c8
+body_id: public_doctrine_l1_82ddc8c08b2bf96b
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: ARCHITECTURE.md
-source_sha256: 92c9d99137e141c8198018fb7ea747e0e4f84265c358701519c618f8401f81b4
+source_sha256: 82ddc8c08b2bf96b7af2b7c474e4fe3ecd35479f3ea10ecc7ddf3668e7540ba0
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_92c9d99137e141c8
+public_doctrine_l1_82ddc8c08b2bf96b
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/ARCHITECTURE.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.310986Z",
-  "record_id": "public_doctrine_l1_92c9d99137e141c8",
+  "compiled_at_utc": "2026-05-01T19:04:55.152064Z",
+  "record_id": "public_doctrine_l1_82ddc8c08b2bf96b",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "ARCHITECTURE.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "ARCHITECTURE.md",
-  "source_sha256": "92c9d99137e141c8198018fb7ea747e0e4f84265c358701519c618f8401f81b4",
-  "source_size_bytes": 2248,
+  "source_sha256": "82ddc8c08b2bf96b7af2b7c474e4fe3ecd35479f3ea10ecc7ddf3668e7540ba0",
+  "source_size_bytes": 2593,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/ARCHITECTURE.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:47:00.310986Z",
-  "payload_sha256_excluding_this_certificate": "cf1d602e28167d939a45074b28522f8786f5483fa841568d5783bbf1ced249ca",
+  "compiled_at_utc": "2026-05-01T19:04:55.152064Z",
+  "payload_sha256_excluding_this_certificate": "7b7a0afc811de3802202054b5d9af3eed96b185a3e02b018fcb294f323a86e25",
   "source_path": "ARCHITECTURE.md",
-  "source_sha256": "92c9d99137e141c8198018fb7ea747e0e4f84265c358701519c618f8401f81b4",
+  "source_sha256": "82ddc8c08b2bf96b7af2b7c474e4fe3ecd35479f3ea10ecc7ddf3668e7540ba0",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>
