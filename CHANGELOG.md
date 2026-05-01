@@ -4,44 +4,43 @@
 
 ### Changed
 
-- Standardized the public filetype/object grammar:
+- Renamed the public project surface to Soul Protocol.
+- Replaced the old public object grammar with the Soul Protocol grammar:
 
 ```text
-.glyph
+.soul
 
     (digital)
-A                Tesseract
+A                Soul Protocol object
 
  ⧉
 ```
 
-- Reframed public docs around `.glyph` as the forward public filetype for digital Tesseracts.
+- Added `SOUL_PROTOCOL.md` as the public object standard.
 - Clarified `.doctrine` as the current compatibility surface during transition.
-- Updated compatibility language to include `.glyph compatible` and `.doctrine compatible`.
-- Unified public documentation around DoctrineOS as the main project and Doctrine Protocol as the control substrate.
-- Renamed the public repository from `doctrine-protocol` to `DoctrineOS`.
-- Relicensed project metadata from Apache 2.0 to AGPLv3-or-later.
-- Routed DoctrineOS runtime capability decisions through a capability kernel.
+- Updated compatibility language to include `.soul compatible` and `.doctrine compatible`.
+- Updated public validation to check the Soul Protocol standard.
+- Preserved AGPLv3-or-later licensing.
+- Routed runtime capability decisions through a capability kernel.
 
 ### Added
 
-- Public `⧉` / `.glyph` standard in `TESSERACT.md`.
-- DoctrineOS direction and architecture docs.
-- DoctrineOS prototype shell.
-- Default DoctrineOS profile.
+- Soul Protocol direction and architecture docs.
+- Soul Protocol compatibility shell.
+- Default compatibility profile.
 - Action receipts and runtime state logging.
-- Tests for DoctrineOS boot, profile loading, permission refusal, approved action execution, receipt creation, and state creation.
+- Tests for boot, profile loading, permission refusal, approved action execution, receipt creation, and state creation.
 - Capability kernel with capability modes, risk levels, policy decisions, and runtime policy output.
 - Default public capability policy.
 - Capability kernel tests and documentation.
 
 ## v0.1.0-prototype
 
-First public DoctrineOS prototype milestone.
+First public prototype milestone.
 
 ### Added
 
-- Public standard doctrine template
+- Public standard compatibility template
 - Python SDK
 - CLI commands for mount, validate, inspect, and registry build
 - Parser and validator
@@ -52,7 +51,7 @@ First public DoctrineOS prototype milestone.
 - Generated node registry
 - Tests and GitHub Actions validation
 - Adapter examples
-- DoctrineOS prototype shell
+- Prototype shell
 - AGPLv3-or-later licensing
 
 ### Public starter nodes
@@ -66,4 +65,4 @@ First public DoctrineOS prototype milestone.
 
 ### Compatibility floor
 
-A project may be `.doctrine compatible` when it can load doctrine files or concept nodes, parse metadata and sections, validate required structure, produce mounted instruction context, preserve stable IDs and source paths, and keep mount receipts inspectable.
+A project may be `.doctrine compatible` when it can load compatibility files or concept nodes, parse metadata and sections, validate required structure, produce mounted instruction context, preserve stable IDs and source paths, and keep mount receipts inspectable.
