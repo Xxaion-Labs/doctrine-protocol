@@ -1,12 +1,12 @@
 # Specification
 
-This specification defines the current public surface for `.glyph`.
+This specification defines the current public surface for `.soul` and Soul Protocol objects.
 
 ```text
-.glyph
+.soul
 
     (digital)
-A                Tesseract
+A                Soul Protocol object
 
  ⧉
 ```
@@ -14,23 +14,23 @@ A                Tesseract
 ## Core law
 
 ```text
-.glyph      = filetype
-(digital)   = qualifier
-A Tesseract = prose class
-⧉           = object symbol
+.soul                 = public filetype trajectory
+(digital)             = qualifier
+A Soul Protocol object = prose class
+⧉                     = object symbol
 ```
 
 The symbol is the object.
 
-In prose, call it **a Tesseract**.
+In prose, call it **a Soul Protocol object**.
 
 ## Purpose
 
-`.glyph` is the public filetype for digital Tesseracts.
+`.soul` is the public filetype trajectory for Soul Protocol objects.
 
-A Tesseract is a semantic-machine object that can carry human-readable meaning, machine-readable structure, mountable runtime context, and inspectable proof surfaces.
+A Soul Protocol object is a semantic-machine object that can carry human-readable meaning, machine-readable structure, mountable runtime context, inspectable proof surfaces, continuity pressure, and authority boundaries.
 
-DoctrineOS is the public operating prototype for mounting and using Tesseracts in a user-governed AI runtime.
+Soul Protocol is the public operating prototype for mounting and using these objects in a user-governed AI runtime.
 
 ## Current compatibility surface
 
@@ -38,17 +38,17 @@ DoctrineOS is the public operating prototype for mounting and using Tesseracts i
 
 A `.doctrine` file is plain UTF-8 text with a Markdown semantic layer and optional JSON sentinel blocks for machine-readable control material.
 
-`.glyph` is the forward filetype name.
-
 ## Operational faces
 
-A Tesseract has operational faces:
+A Soul Protocol object has operational faces:
 
 ```text
-Semantic Face  - human-readable meaning
-Machine Face   - machine-readable structure
-Mount Face     - runtime context
-Proof Face     - receipts, hashes, validation, or proof boundaries
+Semantic Face    - human-readable meaning
+Machine Face     - machine-readable structure
+Mount Face       - runtime context
+Proof Face       - receipts, hashes, validation, or proof boundaries
+Continuity Face  - preserved structure for remount and reuse
+Authority Face   - user-governed limits on what the object may cause
 ```
 
 ## Concept node
@@ -57,7 +57,7 @@ A concept node is a smaller reusable behavior unit that can be mounted alone or 
 
 ## Mounting
 
-Mounting means converting a `.glyph`, `.doctrine`, or concept node into structured runtime context.
+Mounting means converting a `.soul`, `.doctrine`, or concept node into structured runtime context.
 
 A mount operation does not make an AI autonomous. It prepares instruction context that a user, model, adapter, or runtime can apply.
 
@@ -113,7 +113,7 @@ A compatibility file should remain standalone for mount. External files may info
 
 ## Validation
 
-A valid Tesseract-compatible file should have:
+A valid Soul Protocol-compatible file should have:
 
 - a name or stable ID
 - sections that can be parsed into instruction context
@@ -151,7 +151,7 @@ A mount receipt should include:
 
 A tool is compatible when it can:
 
-1. Load a `.glyph`, `.doctrine`, or concept node.
+1. Load a `.soul`, `.doctrine`, or concept node.
 2. Parse metadata and sections.
 3. Validate required structure.
 4. Produce mounted instruction context.
