@@ -1,0 +1,21 @@
+DOCTRINE FILE
+version: 1.0.0
+body_id: public_basic_doctrine_fixture
+
+# Public Basic Doctrine Fixture
+
+## Definition
+A public-safe `.doctrine` fixture for DoctrineOS native filetype parsing.
+
+## Usage
+Use this fixture to test metadata, sections, JSON sentinel diagnostics, and mount receipts.
+
+## Example
+Mount this file with the DoctrineOS CLI.
+
+## ID
+public-basic-doctrine-fixture
+
+<<<PUBLIC_PROFILE_JSON>>>
+{"status":"ACTIVE","profile":"public_basic","private_payload":false}
+<<<END_PUBLIC_PROFILE_JSON>>>

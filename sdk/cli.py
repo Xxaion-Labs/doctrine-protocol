@@ -8,10 +8,13 @@ from .doctrine import Doctrine
 def cmd_validate(args):
     doctrine = Doctrine.load(args.path)
     errors = doctrine.validate()
-    if errors:
-        print(json.dumps({"valid": False, "errors": errors}, indent=2))
+    diagnostics = doctrine.filetype_diagnostics or {}
+    sentinel_errors = diagnostics.get("sentinel_errors", [])
+    all_errors = list(errors) + ["sentinel error: " + str(item) for item in sentinel_errors]
+    if all_errors:
+        print(json.dumps({"valid": False, "errors": all_errors, "filetype_diagnostics": diagnostics}, indent=2))
         return 1
-    print(json.dumps({"valid": True, "path": args.path, "name": doctrine.name, "id": doctrine.id}, indent=2))
+    print(json.dumps({"valid": True, "path": args.path, "name": doctrine.name, "id": doctrine.id, "filetype_diagnostics": diagnostics}, indent=2))
     return 0
 
 
@@ -26,6 +29,23 @@ def cmd_inspect(args):
     doctrine = Doctrine.load(args.path)
     print(json.dumps(doctrine.to_dict(), indent=2))
     return 0
+
+
+def cmd_doctor(args):
+    doctrine = Doctrine.load(args.path)
+    diagnostics = doctrine.filetype_diagnostics or {}
+    errors = doctrine.validate()
+    sentinel_errors = diagnostics.get("sentinel_errors", [])
+    ok = not errors and not sentinel_errors
+    print(json.dumps({
+        "ok": ok,
+        "path": args.path,
+        "name": doctrine.name,
+        "id": doctrine.id,
+        "validation_errors": errors,
+        "filetype_diagnostics": diagnostics,
+    }, indent=2))
+    return 0 if ok else 1
 
 
 def cmd_registry_build(args):
@@ -66,6 +86,10 @@ def build_parser():
     inspect = sub.add_parser("inspect", help="Inspect parsed doctrine data")
     inspect.add_argument("path")
     inspect.set_defaults(func=cmd_inspect)
+
+    doctor = sub.add_parser("doctor", help="Inspect .doctrine filetype diagnostics")
+    doctor.add_argument("path")
+    doctor.set_defaults(func=cmd_doctor)
 
     registry = sub.add_parser("registry", help="Registry commands")
     reg_sub = registry.add_subparsers(dest="registry_command", required=True)

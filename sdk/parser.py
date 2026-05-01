@@ -5,6 +5,8 @@ from typing import Dict, Optional
 import hashlib
 import re
 
+from .filetype import DoctrineFiletypeParser
+
 
 class DoctrineParser:
     """Parser for the public .doctrine/node format."""
@@ -15,6 +17,7 @@ class DoctrineParser:
         metadata = DoctrineParser.parse_metadata(clean)
         sections = DoctrineParser.parse_sections(clean)
         name = DoctrineParser.parse_name(clean, source=source, metadata=metadata)
+        filetype_diagnostics = DoctrineFiletypeParser.diagnostics(clean)
 
         definition = sections.get("Definition")
         usage = sections.get("Usage")
@@ -30,6 +33,7 @@ class DoctrineParser:
             "metadata": metadata,
             "sections": sections,
             "source": source,
+            "filetype_diagnostics": filetype_diagnostics,
         }
 
     @staticmethod

@@ -19,6 +19,7 @@ class Doctrine:
     metadata: Dict[str, str] = field(default_factory=dict)
     sections: Dict[str, str] = field(default_factory=dict)
     source: Optional[str] = None
+    filetype_diagnostics: Dict[str, Any] = field(default_factory=dict)
 
     @classmethod
     def load(cls, path: Union[str, Path]) -> "Doctrine":
@@ -66,6 +67,7 @@ class Doctrine:
             metadata=metadata,
             sections=sections,
             source="compose",
+            filetype_diagnostics={"composed": True, "count": len(items)},
         )
 
     def validate(self) -> List[str]:
@@ -73,6 +75,9 @@ class Doctrine:
 
     def mount(self, strict: bool = True) -> Dict[str, Any]:
         errors = self.validate()
+        sentinel_errors = list((self.filetype_diagnostics or {}).get("sentinel_errors", []))
+        if sentinel_errors:
+            errors.extend(["sentinel error: " + str(item) for item in sentinel_errors])
         if strict and errors:
             raise ValueError("Doctrine validation failed: " + "; ".join(errors))
         receipt = MountReceipt.from_doctrine(self, errors=errors)
@@ -88,6 +93,7 @@ class Doctrine:
             "metadata": dict(self.metadata),
             "sections": dict(self.sections),
             "source": self.source,
+            "filetype_diagnostics": dict(self.filetype_diagnostics or {}),
         }
 
     def to_prompt_context(self) -> str:
