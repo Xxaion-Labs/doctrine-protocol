@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tests__test_doctrineos_shell.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.842441Z",
+  "compiled_at_utc": "2026-05-01T19:55:09.622630Z",
   "record_id": "public_doctrine_l1_2513af74660a00c6",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tests/test_doctrineos_shell.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tests__test_doctrineos_shell.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.842441Z",
-  "payload_sha256_excluding_this_certificate": "59abdd0ba5c80fc231707fe45a57eb92723b3ce62969c6a389a4d9536e22035f",
+  "compiled_at_utc": "2026-05-01T19:55:09.622630Z",
+  "payload_sha256_excluding_this_certificate": "7184a33e2f45a344b47e126e3fa48b8eb9445ea96a41fc38ebd3e39d3e33bb62",
   "source_path": "tests/test_doctrineos_shell.py",
   "source_sha256": "2513af74660a00c68babd63a35e31fd21464c98eaf7a0903433986a84c24d129",
   "status": "ACTIVE"

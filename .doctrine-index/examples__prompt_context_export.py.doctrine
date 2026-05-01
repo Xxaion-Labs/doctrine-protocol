@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/examples__prompt_context_export.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.828815Z",
+  "compiled_at_utc": "2026-05-01T19:55:09.612526Z",
   "record_id": "public_doctrine_l1_70675fec6015bf96",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "examples/prompt_context_export.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/examples__prompt_context_export.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.828815Z",
-  "payload_sha256_excluding_this_certificate": "50c4300097f52ca21debac9f475c2552734785571b8a637c4c28048fb0f148dc",
+  "compiled_at_utc": "2026-05-01T19:55:09.612526Z",
+  "payload_sha256_excluding_this_certificate": "5979df256fd9666292a1e4f0efc652a2951fe1604848f70e88a7a90af545b910",
   "source_path": "examples/prompt_context_export.py",
   "source_sha256": "70675fec6015bf96bb4691748b3e24fd6a761c7e628d3a1efcb846c7a74c6a46",
   "status": "ACTIVE"

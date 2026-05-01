@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/doctrineos__receipts.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.823700Z",
+  "compiled_at_utc": "2026-05-01T19:55:09.608728Z",
   "record_id": "public_doctrine_l1_570dff3ef6f700f8",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "doctrineos/receipts.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/doctrineos__receipts.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.823700Z",
-  "payload_sha256_excluding_this_certificate": "fa4e9d39b170c441187a5bcc35697af3e95dcae122534ca82f1d3f80d2d1f810",
+  "compiled_at_utc": "2026-05-01T19:55:09.608728Z",
+  "payload_sha256_excluding_this_certificate": "784a6c49d2cbae37f64a03cbdb357bab48647494b2b4f35b89297223b804cfb7",
   "source_path": "doctrineos/receipts.py",
   "source_sha256": "570dff3ef6f700f84c7145a35e8888d4de1a047ab99900363d11af2a1f9fe816",
   "status": "ACTIVE"

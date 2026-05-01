@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_ee3ddc05dab61a6c
+body_id: public_doctrine_l1_ce5a1c95121376f8
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: tools/check_glyph_standard.py
-source_sha256: ee3ddc05dab61a6c807c8f97c5ecf18ab95f1c504c65c78960ab04cb975cde8d
+source_sha256: ce5a1c95121376f8436aa770e9e2a4436102f8943f634cd6d6076373ccb4e263
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_ee3ddc05dab61a6c
+public_doctrine_l1_ce5a1c95121376f8
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tools__check_glyph_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.844754Z",
-  "record_id": "public_doctrine_l1_ee3ddc05dab61a6c",
+  "compiled_at_utc": "2026-05-01T19:55:09.624315Z",
+  "record_id": "public_doctrine_l1_ce5a1c95121376f8",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tools/check_glyph_standard.py",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "tools/check_glyph_standard.py",
-  "source_sha256": "ee3ddc05dab61a6c807c8f97c5ecf18ab95f1c504c65c78960ab04cb975cde8d",
-  "source_size_bytes": 2756,
+  "source_sha256": "ce5a1c95121376f8436aa770e9e2a4436102f8943f634cd6d6076373ccb4e263",
+  "source_size_bytes": 1649,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tools__check_glyph_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.844754Z",
-  "payload_sha256_excluding_this_certificate": "dbfc9776aea196cf7f57f678f370a5fba6b4ba74bd0e03bec9cea9a341ce307f",
+  "compiled_at_utc": "2026-05-01T19:55:09.624315Z",
+  "payload_sha256_excluding_this_certificate": "b8a71e9a5edc3d99879f101857025e22d2f06c937c377ab6255efbca0e924608",
   "source_path": "tools/check_glyph_standard.py",
-  "source_sha256": "ee3ddc05dab61a6c807c8f97c5ecf18ab95f1c504c65c78960ab04cb975cde8d",
+  "source_sha256": "ce5a1c95121376f8436aa770e9e2a4436102f8943f634cd6d6076373ccb4e263",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

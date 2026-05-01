@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_f3c96e548d6cb369
+body_id: public_doctrine_l1_79298c53f8eb9982
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: public-evidence/PUBLIC_SINGULARITY_SWEEP.json
-source_sha256: f3c96e548d6cb3695223045d23783ebea5ab08f736128077d65c3327b3a0ac60
+source_sha256: 79298c53f8eb998281b537c7375b8ff2f1ede951d9cb35a5e6dc8f3154fde631
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_f3c96e548d6cb369
+public_doctrine_l1_79298c53f8eb9982
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_SINGULARITY_SWEEP.json.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.834530Z",
-  "record_id": "public_doctrine_l1_f3c96e548d6cb369",
+  "compiled_at_utc": "2026-05-01T19:55:09.616722Z",
+  "record_id": "public_doctrine_l1_79298c53f8eb9982",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
   "status": "ACTIVE"
@@ -51,7 +51,7 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
-  "source_sha256": "f3c96e548d6cb3695223045d23783ebea5ab08f736128077d65c3327b3a0ac60",
+  "source_sha256": "79298c53f8eb998281b537c7375b8ff2f1ede951d9cb35a5e6dc8f3154fde631",
   "source_size_bytes": 2320,
   "status": "ACTIVE"
 }
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_SINGULARITY_SWEEP.json.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.834530Z",
-  "payload_sha256_excluding_this_certificate": "3a99470adefd8c82c61842f6566b06894ec285f151e8901248a02f127134c410",
+  "compiled_at_utc": "2026-05-01T19:55:09.616722Z",
+  "payload_sha256_excluding_this_certificate": "80987cc817c8023ce474d69a4e355b9e0843d1d6cac60dd6410956f44446a387",
   "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
-  "source_sha256": "f3c96e548d6cb3695223045d23783ebea5ab08f736128077d65c3327b3a0ac60",
+  "source_sha256": "79298c53f8eb998281b537c7375b8ff2f1ede951d9cb35a5e6dc8f3154fde631",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/pyproject.toml.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.835158Z",
+  "compiled_at_utc": "2026-05-01T19:55:09.617208Z",
   "record_id": "public_doctrine_l1_540a0cd1f9508a18",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "pyproject.toml",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/pyproject.toml.doctrine",
-  "compiled_at_utc": "2026-05-01T19:19:26.835158Z",
-  "payload_sha256_excluding_this_certificate": "740e41f4260c8ba0b236749795015582f7f7fb3c712e907cf850df18b0e41169",
+  "compiled_at_utc": "2026-05-01T19:55:09.617208Z",
+  "payload_sha256_excluding_this_certificate": "9d21cfe17803da5aa2c4c7e1db33a67d1fab9d6e9f92412b4f79b7aa11a66528",
   "source_path": "pyproject.toml",
   "source_sha256": "540a0cd1f9508a18fcee476827547f9d53945f16e90f23daff2ce6bb0c79912d",
   "status": "ACTIVE"
