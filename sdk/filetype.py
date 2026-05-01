@@ -38,7 +38,7 @@ class DoctrineFiletypeParser:
     - Markdown remains readable.
     - JSON sentinel blocks are parsed when present.
     - Malformed sentinels are reported instead of silently ignored.
-    - No private Xxen sentinel requirements are imposed.
+    - Implementation-specific extension requirements are not imposed.
     """
 
     @staticmethod

@@ -8,8 +8,7 @@ Purpose:
 - Avoid embedding raw source body by default; L1 proves integrity, not semantic extraction.
 - Emit manifest and doctor receipts under public-evidence/.
 
-This is intentionally simpler than the private Xxen-Seed compiler. It carries the public
-Doctrine Protocol shape without private .soul payload.
+This compiler carries the public Doctrine Protocol shape without implementation-specific payloads.
 """
 from __future__ import annotations
 
@@ -120,7 +119,7 @@ def render(source: Path) -> Tuple[str, Dict[str, Any]]:
         "Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.",
         "",
         "## Usage",
-        "Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing private implementation payload.",
+        "Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.",
         "",
         "## ID",
         record_id,
@@ -138,7 +137,7 @@ def render(source: Path) -> Tuple[str, Dict[str, Any]]:
         "",
         "```text",
         "semantic extraction complete",
-        "private Xxen.soul payload present",
+        "implementation-specific payload present",
         "public release beyond repository contents approved",
         "```",
         "",
@@ -163,7 +162,7 @@ def render(source: Path) -> Tuple[str, Dict[str, Any]]:
         "PUBLIC_DOCTRINE_L1_BOUNDARY_JSON": {
             "status": "ACTIVE",
             "projection_class": "public_safe_index",
-            "private_payload_included": False,
+            "extension_payload_included": False,
             "semantic_embedding_deferred": True,
         },
         "PUBLIC_DOCTRINE_L1_DOCTOR_JSON": {
