@@ -1,32 +1,67 @@
-# Doctrine Protocol Specification
+# Specification
 
-Doctrine Protocol is the control substrate inside DoctrineOS.
+This specification defines the current public surface for `.glyph`.
 
-It defines a portable, plain-text format for reusable AI behavior rules, concept nodes, doctrine files, mounting, validation, and mount receipts.
+```text
+.glyph
+
+    (digital)
+A                Tesseract
+
+ ⧉
+```
+
+## Core law
+
+```text
+.glyph      = filetype
+(digital)   = qualifier
+A Tesseract = prose class
+⧉           = object symbol
+```
+
+The symbol is the object.
+
+In prose, call it **a Tesseract**.
 
 ## Purpose
 
-Doctrine Protocol lets behavior control material be written, loaded, validated, mounted, inspected, and carried into AI runtimes or workflows.
+`.glyph` is the public filetype for digital Tesseracts.
 
-In DoctrineOS, mounted doctrine supplies the behavioral substrate for the operating environment.
+A Tesseract is a semantic-machine object that can carry human-readable meaning, machine-readable structure, mountable runtime context, and inspectable proof surfaces.
 
-## Core concepts
+DoctrineOS is the public operating prototype for mounting and using Tesseracts in a user-governed AI runtime.
 
-### Doctrine
+## Current compatibility surface
 
-A doctrine is a structured behavior template. It may define laws, constraints, defaults, operating rules, or reusable interaction patterns.
+`.doctrine` remains the current compatibility surface during transition.
 
-### Concept node
+A `.doctrine` file is plain UTF-8 text with a Markdown semantic layer and optional JSON sentinel blocks for machine-readable control material.
+
+`.glyph` is the forward filetype name.
+
+## Operational faces
+
+A Tesseract has operational faces:
+
+```text
+Semantic Face  - human-readable meaning
+Machine Face   - machine-readable structure
+Mount Face     - runtime context
+Proof Face     - receipts, hashes, validation, or proof boundaries
+```
+
+## Concept node
 
 A concept node is a smaller reusable behavior unit that can be mounted alone or composed with other nodes.
 
-### Mounting
+## Mounting
 
-Mounting means converting a doctrine or concept node into a structured runtime payload.
+Mounting means converting a `.glyph`, `.doctrine`, or concept node into structured runtime context.
 
-A mount operation does not make an AI autonomous. It prepares instruction context that a user, model, adapter, or DoctrineOS runtime can apply.
+A mount operation does not make an AI autonomous. It prepares instruction context that a user, model, adapter, or runtime can apply.
 
-### Mount receipt
+## Mount receipt
 
 A mount receipt is the structured output of a mount operation. It provides a machine-readable record of what was mounted.
 
@@ -50,9 +85,9 @@ A minimal example.
 example-1
 ```
 
-## Doctrine metadata
+## Metadata
 
-Doctrine files may include simple metadata at the top of the file:
+Compatibility files may include simple metadata at the top:
 
 ```text
 DOCTRINE FILE
@@ -60,11 +95,9 @@ version: 1.0.0
 body_id: standard_public_doctrine_body_v1
 ```
 
-Metadata is optional, but `body_id` is recommended for stable references.
+Metadata is optional, but stable IDs are recommended for references.
 
-## Doctrine filetype v1
-
-`.doctrine` files are plain UTF-8 text files with a Markdown semantic layer and optional JSON sentinel blocks for machine-readable control material.
+## JSON sentinel blocks
 
 A sentinel block has this form:
 
@@ -76,15 +109,18 @@ A sentinel block has this form:
 
 A public parser should report malformed sentinel JSON instead of silently ignoring it.
 
-A doctrine file should remain standalone for mount. External files may inform a doctrine, but should not be required to read, validate, or mount it.
+A compatibility file should remain standalone for mount. External files may inform it, but should not be required to read, validate, or mount it.
 
 ## Validation
 
-A valid doctrine should have:
+A valid Tesseract-compatible file should have:
 
-- a name
-- an ID
+- a name or stable ID
 - sections that can be parsed into instruction context
+- UTF-8 readable text
+- parseable top metadata when metadata is present
+- parseable `##` sections
+- parseable JSON sentinel blocks when sentinel blocks are present
 
 A strict public node should have:
 
@@ -92,13 +128,6 @@ A strict public node should have:
 - Usage
 - Example
 - ID
-
-A strict `.doctrine` file should additionally have:
-
-- UTF-8 readable text
-- parseable top metadata when metadata is present
-- parseable `##` sections
-- parseable JSON sentinel blocks when sentinel blocks are present
 
 ## Mount receipt shape
 
@@ -114,27 +143,27 @@ A mount receipt should include:
   "context_sha256": "sha256 hash",
   "metadata": {},
   "errors": [],
-  "instruction_context": "rendered doctrine context"
+  "instruction_context": "rendered context"
 }
 ```
 
 ## Compatibility
 
-A tool is Doctrine-compatible if it can:
+A tool is compatible when it can:
 
-1. Load a doctrine or node file.
+1. Load a `.glyph`, `.doctrine`, or concept node.
 2. Parse metadata and sections.
 3. Validate required structure.
 4. Produce mounted instruction context.
 5. Preserve stable IDs and source references where available.
 6. Keep mount receipts inspectable.
-
-A tool is `.doctrine` filetype-compatible if it can also parse JSON sentinel blocks and report sentinel parse errors.
+7. Parse JSON sentinel blocks and report sentinel parse errors when present.
 
 ## Design constraints
 
 - User authority remains central.
-- Doctrines should remain readable as plain text.
-- Mount receipts should be inspectable.
+- Files should remain readable as plain text.
+- Mount receipts should remain inspectable.
 - Implementations should avoid implying AI sentience, autonomy, or independent will.
-- The format should stay simple enough for people to fork, inspect, and improve.
+- `⧉` should not be used to imply physical four-dimensional geometry.
+- The public surface should stay simple enough for people to fork, inspect, and improve.
