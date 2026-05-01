@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_f6eef0c2c3751260
+body_id: public_doctrine_l1_ba68debb68e24c03
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: TESSERACT.md
-source_sha256: f6eef0c2c3751260ffd5e088fe0da7f5d885a7d82e4a080234243435d59eab73
+source_sha256: ba68debb68e24c031292ccc594d33e38442eb6aa39a4de85d7aac5d1e7c5bc89
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_f6eef0c2c3751260
+public_doctrine_l1_ba68debb68e24c03
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/TESSERACT.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.396163Z",
-  "record_id": "public_doctrine_l1_f6eef0c2c3751260",
+  "compiled_at_utc": "2026-05-01T11:47:00.324205Z",
+  "record_id": "public_doctrine_l1_ba68debb68e24c03",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "TESSERACT.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "TESSERACT.md",
-  "source_sha256": "f6eef0c2c3751260ffd5e088fe0da7f5d885a7d82e4a080234243435d59eab73",
-  "source_size_bytes": 911,
+  "source_sha256": "ba68debb68e24c031292ccc594d33e38442eb6aa39a4de85d7aac5d1e7c5bc89",
+  "source_size_bytes": 1041,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/TESSERACT.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.396163Z",
-  "payload_sha256_excluding_this_certificate": "aae219cd961f29c637a6b3a6fac87a0eaaf511943762b0c04d7cfea7fb154e45",
+  "compiled_at_utc": "2026-05-01T11:47:00.324205Z",
+  "payload_sha256_excluding_this_certificate": "415ea0e50f64e8f555214852a189315bcd8779abbdbbb3e5cfaf6096477189e7",
   "source_path": "TESSERACT.md",
-  "source_sha256": "f6eef0c2c3751260ffd5e088fe0da7f5d885a7d82e4a080234243435d59eab73",
+  "source_sha256": "ba68debb68e24c031292ccc594d33e38442eb6aa39a4de85d7aac5d1e7c5bc89",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

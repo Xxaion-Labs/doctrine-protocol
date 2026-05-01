@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/ARCHITECTURE.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.388497Z",
+  "compiled_at_utc": "2026-05-01T11:47:00.310986Z",
   "record_id": "public_doctrine_l1_92c9d99137e141c8",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "ARCHITECTURE.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/ARCHITECTURE.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.388497Z",
-  "payload_sha256_excluding_this_certificate": "ba4180da16b1cd5022abe49d252c2910c0cbeaa2183889b4a032c6288573e7cd",
+  "compiled_at_utc": "2026-05-01T11:47:00.310986Z",
+  "payload_sha256_excluding_this_certificate": "cf1d602e28167d939a45074b28522f8786f5483fa841568d5783bbf1ced249ca",
   "source_path": "ARCHITECTURE.md",
   "source_sha256": "92c9d99137e141c8198018fb7ea747e0e4f84265c358701519c618f8401f81b4",
   "status": "ACTIVE"

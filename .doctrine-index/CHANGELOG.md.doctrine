@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/CHANGELOG.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.389303Z",
+  "compiled_at_utc": "2026-05-01T11:47:00.319255Z",
   "record_id": "public_doctrine_l1_4ace422333fcd5b1",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "CHANGELOG.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/CHANGELOG.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.389303Z",
-  "payload_sha256_excluding_this_certificate": "e2694a47a6cfa3e2605f5c3c6a842b82da0e95113d3f946c7fc7b3218eec2782",
+  "compiled_at_utc": "2026-05-01T11:47:00.319255Z",
+  "payload_sha256_excluding_this_certificate": "c9049e1f68395e113dd1cbae33afb31b9ad56e2dee1bc36a43fbfb5d2a5ec93e",
   "source_path": "CHANGELOG.md",
   "source_sha256": "4ace422333fcd5b1a86b36ef612710aff8d23c6249eec92ab9c99db6f2420a51",
   "status": "ACTIVE"

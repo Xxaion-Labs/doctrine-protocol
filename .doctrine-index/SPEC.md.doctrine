@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_ab5e67890234cbf9
+body_id: public_doctrine_l1_8b43373416258d3a
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: SPEC.md
-source_sha256: ab5e67890234cbf9ba99b80a8fcc6ab84ef2ee7ad704a88521763156860ab2c7
+source_sha256: 8b43373416258d3a9b4f4e71001cfdedb77b2e7fe070fafffd1b918651aee9ae
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_ab5e67890234cbf9
+public_doctrine_l1_8b43373416258d3a
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/SPEC.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.395563Z",
-  "record_id": "public_doctrine_l1_ab5e67890234cbf9",
+  "compiled_at_utc": "2026-05-01T11:47:00.323823Z",
+  "record_id": "public_doctrine_l1_8b43373416258d3a",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "SPEC.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "SPEC.md",
-  "source_sha256": "ab5e67890234cbf9ba99b80a8fcc6ab84ef2ee7ad704a88521763156860ab2c7",
-  "source_size_bytes": 3617,
+  "source_sha256": "8b43373416258d3a9b4f4e71001cfdedb77b2e7fe070fafffd1b918651aee9ae",
+  "source_size_bytes": 4017,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/SPEC.md.doctrine",
-  "compiled_at_utc": "2026-05-01T11:39:47.395563Z",
-  "payload_sha256_excluding_this_certificate": "cd1fac4b2b9df1dccf011322c32f4ee36fd32f0c3e7a7f3dd2ba136adcb0f948",
+  "compiled_at_utc": "2026-05-01T11:47:00.323823Z",
+  "payload_sha256_excluding_this_certificate": "3d444f9230f1f0ab733601fadaeda4ff55e0d235486f4f30d8ba1d5800e95029",
   "source_path": "SPEC.md",
-  "source_sha256": "ab5e67890234cbf9ba99b80a8fcc6ab84ef2ee7ad704a88521763156860ab2c7",
+  "source_sha256": "8b43373416258d3a9b4f4e71001cfdedb77b2e7fe070fafffd1b918651aee9ae",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>
