@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve DoctrineOS. Keep contributions small, clear, and easy to review.
+Thanks for helping improve Soul Protocol. Keep contributions small, clear, and easy to review.
 
 ## Start here
 
@@ -31,10 +31,10 @@ python tools/check_registry.py
 
 ## Good contribution types
 
-- DoctrineOS runtime improvements
-- Doctrine Protocol SDK fixes
+- Soul Protocol runtime improvements
+- SDK fixes
 - CLI improvements
-- public doctrine nodes
+- public nodes
 - adapter examples
 - documentation improvements
 - tests and validation tooling
