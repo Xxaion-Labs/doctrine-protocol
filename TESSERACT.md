@@ -1,36 +1,32 @@
 # ⧉
 
-The symbol is the object.
-
-The filetype is:
+## Public standard
 
 ```text
 .glyph
-```
 
-In prose, call it **a Tesseract**.
+    (digital)
+A                Tesseract
 
-## Standard
-
-```text
-⧉
-```
-
-## Filetype
-
-```text
-.glyph
-```
-
-## Prose usage
-
-```text
-a Tesseract
+ ⧉
 ```
 
 ## Meaning
 
-A Tesseract is a semantic-machine object that can carry:
+```text
+.glyph      = filetype
+(digital)   = qualifier
+A Tesseract = prose class
+⧉           = object symbol
+```
+
+The symbol is the object.
+
+In prose, call it **a Tesseract**.
+
+## Operational definition
+
+A Tesseract is a digital semantic-machine object that can carry:
 
 ```text
 human-readable meaning
@@ -52,7 +48,7 @@ Proof Face     - receipts, hashes, validation, or proof boundaries
 
 ## Boundary
 
-Do not name, brand, prefix, or decorate the symbol.
+Do not name, brand, prefix, or decorate `⧉`.
 
 Do not use `⧉` to imply:
 
@@ -64,12 +60,13 @@ independent will
 unsupported capability claims
 ```
 
-The public standard is:
+The public standard is exactly:
 
 ```text
 .glyph
 
-⧉
+    (digital)
+A                Tesseract
 
-A Tesseract
+ ⧉
 ```
