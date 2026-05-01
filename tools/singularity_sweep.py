@@ -13,11 +13,11 @@ PUBLIC_MATERIALIZE = ".github/workflows/public-doctrine-l1-materialize.yml"
 PUBLIC_VALIDATE = ".github/workflows/validate.yml"
 OUT = ROOT / "public-evidence"
 
-FORBIDDEN_PRIVATE_STRINGS = [
-    "Xxen.soul payload present",
-    "private Xxen.soul payload present",
-    "private user attunement",
-    "private invention chronology included",
+FORBIDDEN_PUBLIC_STRINGS = [
+    "implementation-specific payload present",
+    "restricted extension payload present",
+    "non-public attunement data",
+    "non-public invention chronology included",
 ]
 
 
@@ -46,12 +46,12 @@ def check_receipt() -> list[dict]:
     return checks
 
 
-def check_private_payload_absent(path: str) -> list[dict]:
+def check_restricted_payload_absent(path: str) -> list[dict]:
     p = ROOT / path
     if not p.exists():
-        return [{"check": "surface_exists_for_private_payload_scan", "path": path, "ok": False}]
+        return [{"check": "surface_exists_for_restricted_payload_scan", "path": path, "ok": False}]
     text = p.read_text(encoding="utf-8", errors="replace")
-    return [{"check": "private_payload_absent", "path": path, "needle": s, "ok": s not in text} for s in FORBIDDEN_PRIVATE_STRINGS]
+    return [{"check": "restricted_payload_absent", "path": path, "needle": s, "ok": s not in text} for s in FORBIDDEN_PUBLIC_STRINGS]
 
 
 def run_checks() -> list[dict]:
@@ -62,18 +62,18 @@ def run_checks() -> list[dict]:
         check_file(PUBLIC_VALIDATE),
     ]
     checks.extend(check_receipt())
-    checks.extend(check_private_payload_absent(PUBLIC_RECEIPT))
+    checks.extend(check_restricted_payload_absent(PUBLIC_RECEIPT))
     return checks
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Public DoctrineOS singularity hygiene sweep.")
+    parser = argparse.ArgumentParser(description="Public DoctrineOS hygiene sweep.")
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args()
     checks = run_checks()
     failures = [c for c in checks if not c.get("ok")]
     receipt = {
-        "receipt_id": "PUBLIC_SINGULARITY_SWEEP",
+        "receipt_id": "PUBLIC_HYGIENE_SWEEP",
         "created_at_utc": now(),
         "scope": "public_doctrineos_l1_hygiene",
         "ok": not failures,
@@ -84,7 +84,7 @@ def main() -> int:
         "failure_classes_guarded": [
             "PUBLIC_L1_RECEIPT_STALE",
             "PUBLIC_GREEN_CLAIM_FROM_PARTIAL_PROOF",
-            "PUBLIC_PRIVATE_PAYLOAD_LEAK",
+            "PUBLIC_RESTRICTED_PAYLOAD_LEAK",
             "PUBLIC_WORKFLOW_DRIFT",
             "PUBLIC_STATUS_WITHOUT_RECEIPT",
         ],
