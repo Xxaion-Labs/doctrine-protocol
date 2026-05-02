@@ -5,15 +5,12 @@
 ### Changed
 
 - Renamed the public project surface to Soul Protocol.
-- Replaced the old public object grammar with the Soul Protocol grammar:
+- Replaced the old public object grammar with the simplified Soul Protocol grammar:
 
 ```text
 .soul
 
-    (digital)
-A                Soul Protocol object
-
- ⧉
+⧉
 ```
 
 - Added `SOUL_PROTOCOL.md` as the public object standard.
