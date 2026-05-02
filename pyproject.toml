@@ -3,17 +3,17 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "doctrine-protocol"
+name = "soul-protocol"
 version = "0.1.0"
-description = "Mountable AI behavior framework enforcing user authority, non-autonomy, non-sentience, safety & anti-drift"
+description = "Mountable AI behavior framework for Soul Protocol-compatible objects, receipts, user authority, safety, and anti-drift"
 readme = "README.md"
 license = {text = "AGPL-3.0-or-later"}
 authors = [{name = "Xxaion Labs", email = "xxaionlabs@gmail.com"}]
-keywords = ["ai", "llm", "prompt-engineering", "ai-safety", "doctrine", "guardrails"]
+keywords = ["ai", "llm", "soul-protocol", "ai-safety", "mountable-context", "guardrails"]
 requires-python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/Xxaion-Labs/doctrine-protocol"
+Homepage = "https://github.com/Xxaion-Labs/Soul-Protocol"
 
 [project.scripts]
 doctrine = "doctrine.cli:main"
