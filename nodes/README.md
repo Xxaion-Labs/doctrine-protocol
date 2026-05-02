@@ -1,8 +1,8 @@
 # Public Nodes
 
-Doctrine nodes are small reusable behavior units for Doctrine Protocol and DoctrineOS-compatible runtimes.
+Soul Protocol nodes are small reusable behavior units for Soul Protocol-compatible runtimes.
 
-Each node can be mounted alone or composed with other doctrine content.
+Each node can be mounted alone or composed with other compatibility content.
 
 ## Node format
 
@@ -26,7 +26,7 @@ stable-node-id
 
 ## Current nodes
 
-- `anti-drift.md` — encourages consistency with the active doctrine context
+- `anti-drift.md` — encourages consistency with the active mounted context
 - `clarity.md` — encourages clear, direct, readable responses
 - `concise-response.md` — encourages useful responses with minimal unnecessary length
 - `example.md` — minimal reusable concept example
