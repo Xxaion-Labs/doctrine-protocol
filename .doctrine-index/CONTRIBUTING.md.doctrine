@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_fe4fec32216c01c8
+body_id: public_doctrine_l1_64643e6ecc539b19
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: CONTRIBUTING.md
-source_sha256: fe4fec32216c01c8e892f2f227fd7425da24452d211a04db718d610b262ef08c
+source_sha256: 64643e6ecc539b193a44b09f48736e1f0a8c256c5c84d6f4de6bce7a587e5610
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_fe4fec32216c01c8
+public_doctrine_l1_64643e6ecc539b19
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/CONTRIBUTING.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.077698Z",
-  "record_id": "public_doctrine_l1_fe4fec32216c01c8",
+  "compiled_at_utc": "2026-05-02T04:16:11.731111Z",
+  "record_id": "public_doctrine_l1_64643e6ecc539b19",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "CONTRIBUTING.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "CONTRIBUTING.md",
-  "source_sha256": "fe4fec32216c01c8e892f2f227fd7425da24452d211a04db718d610b262ef08c",
-  "source_size_bytes": 1458,
+  "source_sha256": "64643e6ecc539b193a44b09f48736e1f0a8c256c5c84d6f4de6bce7a587e5610",
+  "source_size_bytes": 2143,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/CONTRIBUTING.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.077698Z",
-  "payload_sha256_excluding_this_certificate": "a365e610aad5484ce5a90a6210418e2d82c91a93f2f5b36707948947e3544a80",
+  "compiled_at_utc": "2026-05-02T04:16:11.731111Z",
+  "payload_sha256_excluding_this_certificate": "213dcc1d90bd35cfcf4ab0ce620ee866698a13411f1c316e4732dccf0d9939fa",
   "source_path": "CONTRIBUTING.md",
-  "source_sha256": "fe4fec32216c01c8e892f2f227fd7425da24452d211a04db718d610b262ef08c",
+  "source_sha256": "64643e6ecc539b193a44b09f48736e1f0a8c256c5c84d6f4de6bce7a587e5610",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

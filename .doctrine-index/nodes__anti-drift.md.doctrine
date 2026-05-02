@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/nodes__anti-drift.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.096779Z",
+  "compiled_at_utc": "2026-05-02T04:16:11.751540Z",
   "record_id": "public_doctrine_l1_2bf3ac62019cec3b",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "nodes/anti-drift.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/nodes__anti-drift.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.096779Z",
-  "payload_sha256_excluding_this_certificate": "d199989ca046421094531b4969f1bbb19bd5a029f30dc07a0c4d1c88d4576db2",
+  "compiled_at_utc": "2026-05-02T04:16:11.751540Z",
+  "payload_sha256_excluding_this_certificate": "4339badd85ef03f734d7cf91fbc6d6af4a9794a39d80afbb63bb8b97e82b886a",
   "source_path": "nodes/anti-drift.md",
   "source_sha256": "2bf3ac62019cec3b9aae66933a4568f758cf15add53e05df03a9749e141a4f17",
   "status": "ACTIVE"

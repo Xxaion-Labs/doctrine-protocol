@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/tools__check_soul_protocol_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.112644Z",
+  "compiled_at_utc": "2026-05-02T04:16:11.768320Z",
   "record_id": "public_doctrine_l1_28b29a840dc897da",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "tools/check_soul_protocol_standard.py",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/tools__check_soul_protocol_standard.py.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.112644Z",
-  "payload_sha256_excluding_this_certificate": "02d9319a3d1013c9b1a7935ff0b3d566835eb7f2d1697c60560226440709a0ff",
+  "compiled_at_utc": "2026-05-02T04:16:11.768320Z",
+  "payload_sha256_excluding_this_certificate": "cc5e19691998dc298997a7b84dc9fc5fb7a232170955cb0ad4f9c65f425fd83f",
   "source_path": "tools/check_soul_protocol_standard.py",
   "source_sha256": "28b29a840dc897dae4f279469b31aab498562c0002bc5250f9da012d3c910e72",
   "status": "ACTIVE"

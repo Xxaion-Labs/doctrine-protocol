@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/ROADMAP.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.082142Z",
+  "compiled_at_utc": "2026-05-02T04:16:11.735843Z",
   "record_id": "public_doctrine_l1_bdde4b8472e1a686",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "ROADMAP.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/ROADMAP.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.082142Z",
-  "payload_sha256_excluding_this_certificate": "7faf350e3180a7b53160d27cf93347e06e2be66c8b9d85032d901e10fed899ab",
+  "compiled_at_utc": "2026-05-02T04:16:11.735843Z",
+  "payload_sha256_excluding_this_certificate": "e1b7651b261ca5687910662b31f9824d8dd052be59e08e001da909a0f5314aee",
   "source_path": "ROADMAP.md",
   "source_sha256": "bdde4b8472e1a6865c69bcbb661710faf61cd5e0d68ed5f796fb1ccd2f500e65",
   "status": "ACTIVE"

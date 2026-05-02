@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/VISION.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.083885Z",
+  "compiled_at_utc": "2026-05-02T04:16:11.737742Z",
   "record_id": "public_doctrine_l1_d3dc64c6e57f3dba",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "VISION.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/VISION.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.083885Z",
-  "payload_sha256_excluding_this_certificate": "ef67aee41ebf9766c5fd121f4c4728a7d216c4e6243212e7d03ee4b8a23ea5b1",
+  "compiled_at_utc": "2026-05-02T04:16:11.737742Z",
+  "payload_sha256_excluding_this_certificate": "54da719560d2ea38b158752808281d3bc29d6fc459fc99a864290968fa721ce6",
   "source_path": "VISION.md",
   "source_sha256": "d3dc64c6e57f3dba8332fb5a0176eef73b46b17823f2f0928a5b8fdee333ec6b",
   "status": "ACTIVE"

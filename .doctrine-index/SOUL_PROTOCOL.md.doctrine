@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.082777Z",
+  "compiled_at_utc": "2026-05-02T04:16:11.736500Z",
   "record_id": "public_doctrine_l1_eaa333a466e2e546",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "SOUL_PROTOCOL.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.082777Z",
-  "payload_sha256_excluding_this_certificate": "6bef3ca967c49089e8d218522cf6b9207056b7daeddf6712dedbb3e5bbe850bd",
+  "compiled_at_utc": "2026-05-02T04:16:11.736500Z",
+  "payload_sha256_excluding_this_certificate": "f106b3834c93394034b198303d79ca2de000e7eea3010ad5e95557ee767f6f72",
   "source_path": "SOUL_PROTOCOL.md",
   "source_sha256": "eaa333a466e2e546b256c06a124564955525fbbb5643ddf0a9e81dd53fb48081",
   "status": "ACTIVE"
