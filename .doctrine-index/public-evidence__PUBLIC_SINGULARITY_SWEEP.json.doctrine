@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_SINGULARITY_SWEEP.json.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.662011Z",
+  "compiled_at_utc": "2026-05-02T04:12:04.101324Z",
   "record_id": "public_doctrine_l1_70b5adff15040d65",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_SINGULARITY_SWEEP.json.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.662011Z",
-  "payload_sha256_excluding_this_certificate": "5bb62a5caba4eba26d0ddaf96bbdd3b9b55f39067bc10387509903aaf229c12f",
+  "compiled_at_utc": "2026-05-02T04:12:04.101324Z",
+  "payload_sha256_excluding_this_certificate": "2a9252095e3b93ee72e285f04cebd0edf6e5b83dff328d5a92258c09def3cf10",
   "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
   "source_sha256": "70b5adff15040d65e719ae11770f88a284ce5092b314ab667d9dbe99f00fff3c",
   "status": "ACTIVE"

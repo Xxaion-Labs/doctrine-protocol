@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_46dccca413afe25b
+body_id: public_doctrine_l1_eaa333a466e2e546
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: SOUL_PROTOCOL.md
-source_sha256: 46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e
+source_sha256: eaa333a466e2e546b256c06a124564955525fbbb5643ddf0a9e81dd53fb48081
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_46dccca413afe25b
+public_doctrine_l1_eaa333a466e2e546
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.644510Z",
-  "record_id": "public_doctrine_l1_46dccca413afe25b",
+  "compiled_at_utc": "2026-05-02T04:12:04.082777Z",
+  "record_id": "public_doctrine_l1_eaa333a466e2e546",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "SOUL_PROTOCOL.md",
   "status": "ACTIVE"
@@ -51,8 +51,8 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "SOUL_PROTOCOL.md",
-  "source_sha256": "46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e",
-  "source_size_bytes": 1696,
+  "source_sha256": "eaa333a466e2e546b256c06a124564955525fbbb5643ddf0a9e81dd53fb48081",
+  "source_size_bytes": 2832,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.644510Z",
-  "payload_sha256_excluding_this_certificate": "1e515c7489f2fd078bf3feacf665b764113d67dc2496f3f81df8bc29f189e68b",
+  "compiled_at_utc": "2026-05-02T04:12:04.082777Z",
+  "payload_sha256_excluding_this_certificate": "6bef3ca967c49089e8d218522cf6b9207056b7daeddf6712dedbb3e5bbe850bd",
   "source_path": "SOUL_PROTOCOL.md",
-  "source_sha256": "46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e",
+  "source_sha256": "eaa333a466e2e546b256c06a124564955525fbbb5643ddf0a9e81dd53fb48081",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

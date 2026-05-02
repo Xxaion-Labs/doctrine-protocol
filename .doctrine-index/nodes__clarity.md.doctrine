@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/nodes__clarity.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.658127Z",
+  "compiled_at_utc": "2026-05-02T04:12:04.097314Z",
   "record_id": "public_doctrine_l1_d1db4e3947a085e3",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "nodes/clarity.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/nodes__clarity.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.658127Z",
-  "payload_sha256_excluding_this_certificate": "428eed266b69724a91d2f2abec701191e53bed8805938cbaa3ea2396ecc910d5",
+  "compiled_at_utc": "2026-05-02T04:12:04.097314Z",
+  "payload_sha256_excluding_this_certificate": "92c4cd98b9471b90c6eb1c83488aca44f74835e8759d087cbbf356b941c19173",
   "source_path": "nodes/clarity.md",
   "source_sha256": "d1db4e3947a085e3312ffe1a624555e69665b935cc27d25fe2ea029be0637b00",
   "status": "ACTIVE"

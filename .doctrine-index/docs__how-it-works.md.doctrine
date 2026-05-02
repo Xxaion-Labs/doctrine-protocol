@@ -1,14 +1,14 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_00b018c2aea4e3b6
+body_id: public_doctrine_l1_cfcfe3b50aad9bdc
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
-source_path: doctrineos/policy.py
-source_sha256: 00b018c2aea4e3b6ca83259fb74b158a7004f912473cf453c0bf3d399b54c6a6
+source_path: docs/how-it-works.md
+source_sha256: cfcfe3b50aad9bdce0d6b7a0878770f1537b57094c490658892d6fffe04e3ee7
 projection_class: public_safe_index
 validation_state: generated_unverified
 
-# Public Doctrine L1 Companion — `doctrineos/policy.py`
+# Public Doctrine L1 Companion — `docs/how-it-works.md`
 
 ## Definition
 Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_00b018c2aea4e3b6
+public_doctrine_l1_cfcfe3b50aad9bdc
 
 ## Claims supported
 
@@ -38,11 +38,11 @@ public release beyond repository contents approved
 
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
-  "companion_path": ".doctrine-index/doctrineos__policy.py.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.089107Z",
-  "record_id": "public_doctrine_l1_00b018c2aea4e3b6",
+  "companion_path": ".doctrine-index/docs__how-it-works.md.doctrine",
+  "compiled_at_utc": "2026-05-02T04:12:04.085099Z",
+  "record_id": "public_doctrine_l1_cfcfe3b50aad9bdc",
   "schema_version": "public_doctrine_l1_index_v1",
-  "source_path": "doctrineos/policy.py",
+  "source_path": "docs/how-it-works.md",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
@@ -50,9 +50,9 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
 {
   "source_embedded": false,
-  "source_path": "doctrineos/policy.py",
-  "source_sha256": "00b018c2aea4e3b6ca83259fb74b158a7004f912473cf453c0bf3d399b54c6a6",
-  "source_size_bytes": 353,
+  "source_path": "docs/how-it-works.md",
+  "source_sha256": "cfcfe3b50aad9bdce0d6b7a0878770f1537b57094c490658892d6fffe04e3ee7",
+  "source_size_bytes": 4838,
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_SOURCE_JSON>>>
@@ -82,11 +82,11 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
-  "companion_path": ".doctrine-index/doctrineos__policy.py.doctrine",
-  "compiled_at_utc": "2026-05-02T04:12:04.089107Z",
-  "payload_sha256_excluding_this_certificate": "8d1c4e3af94610e7ec26d447f8a9944fcbf87c70b802c36fab5a9e656846a3e1",
-  "source_path": "doctrineos/policy.py",
-  "source_sha256": "00b018c2aea4e3b6ca83259fb74b158a7004f912473cf453c0bf3d399b54c6a6",
+  "companion_path": ".doctrine-index/docs__how-it-works.md.doctrine",
+  "compiled_at_utc": "2026-05-02T04:12:04.085099Z",
+  "payload_sha256_excluding_this_certificate": "d85237b49ad9a0c64c47e20ab049a65bc1bd7fef968fc48f142adc2bcaa73efd",
+  "source_path": "docs/how-it-works.md",
+  "source_sha256": "cfcfe3b50aad9bdce0d6b7a0878770f1537b57094c490658892d6fffe04e3ee7",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

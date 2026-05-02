@@ -1,10 +1,10 @@
 DOCTRINE FILE
 version: 1.0.0
-body_id: public_doctrine_l1_1f3c2653cf91059a
+body_id: public_doctrine_l1_5c5f1a2344d2e803
 schema_version: public_doctrine_l1_index_v1
 record_type: public_repo_file_companion
 source_path: public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json
-source_sha256: 1f3c2653cf91059a367919355f11584b5a8823c9f0f256270aa42b348d82ac52
+source_sha256: 5c5f1a2344d2e803b06ff3594da7795dfeafa0693243150de1aee170beeda491
 projection_class: public_safe_index
 validation_state: generated_unverified
 
@@ -17,7 +17,7 @@ Public-safe L1 `.doctrine` companion envelope for a DoctrineOS repository file.
 Use this companion to verify source path, SHA-256, size, projection boundary, and filetype envelope integrity without exposing implementation-specific payloads.
 
 ## ID
-public_doctrine_l1_1f3c2653cf91059a
+public_doctrine_l1_5c5f1a2344d2e803
 
 ## Claims supported
 
@@ -39,8 +39,8 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_DOCTRINE_L1_DOCTOR.json.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.661477Z",
-  "record_id": "public_doctrine_l1_1f3c2653cf91059a",
+  "compiled_at_utc": "2026-05-02T04:12:04.100763Z",
+  "record_id": "public_doctrine_l1_5c5f1a2344d2e803",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json",
   "status": "ACTIVE"
@@ -51,7 +51,7 @@ public release beyond repository contents approved
 {
   "source_embedded": false,
   "source_path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json",
-  "source_sha256": "1f3c2653cf91059a367919355f11584b5a8823c9f0f256270aa42b348d82ac52",
+  "source_sha256": "5c5f1a2344d2e803b06ff3594da7795dfeafa0693243150de1aee170beeda491",
   "source_size_bytes": 19267,
   "status": "ACTIVE"
 }
@@ -83,10 +83,10 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/public-evidence__PUBLIC_DOCTRINE_L1_DOCTOR.json.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.661477Z",
-  "payload_sha256_excluding_this_certificate": "3ab3ddb057e19dcca83e521610edefeef2a74800f33187a3bbded315dbc8e639",
+  "compiled_at_utc": "2026-05-02T04:12:04.100763Z",
+  "payload_sha256_excluding_this_certificate": "4be1acf8c1c1e13b7f93dbdf7aa52f7e04aca033356854c20fa5ab3d21441864",
   "source_path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json",
-  "source_sha256": "1f3c2653cf91059a367919355f11584b5a8823c9f0f256270aa42b348d82ac52",
+  "source_sha256": "5c5f1a2344d2e803b06ff3594da7795dfeafa0693243150de1aee170beeda491",
   "status": "ACTIVE"
 }
 <<<END_PUBLIC_DOCTRINE_L1_CERTIFICATE_JSON>>>

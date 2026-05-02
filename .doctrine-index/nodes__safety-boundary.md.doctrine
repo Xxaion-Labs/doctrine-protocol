@@ -39,7 +39,7 @@ public release beyond repository contents approved
 <<<PUBLIC_DOCTRINE_L1_MANIFEST_JSON>>>
 {
   "companion_path": ".doctrine-index/nodes__safety-boundary.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.659758Z",
+  "compiled_at_utc": "2026-05-02T04:12:04.099052Z",
   "record_id": "public_doctrine_l1_d6399b740727566f",
   "schema_version": "public_doctrine_l1_index_v1",
   "source_path": "nodes/safety-boundary.md",
@@ -83,8 +83,8 @@ public release beyond repository contents approved
 {
   "certificate_policy": "payload_sha256_excluding_this_certificate",
   "companion_path": ".doctrine-index/nodes__safety-boundary.md.doctrine",
-  "compiled_at_utc": "2026-05-02T04:09:30.659758Z",
-  "payload_sha256_excluding_this_certificate": "846ac0f23f1b35e1756b56fd909a7064966545ace3c67ab4cc101be6049eee70",
+  "compiled_at_utc": "2026-05-02T04:12:04.099052Z",
+  "payload_sha256_excluding_this_certificate": "8cdb1a6e991425994e3dd2a4639525af3f3e735a5c53f8e4779bfd4070173898",
   "source_path": "nodes/safety-boundary.md",
   "source_sha256": "d6399b740727566f868d80100a46fef83ce9c4c5527630354acff8828c4196d5",
   "status": "ACTIVE"

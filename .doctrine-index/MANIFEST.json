@@ -1,21 +1,21 @@
 {
   "error_count": 0,
   "errors": [],
-  "manifest_sha256_excluding_self": "0272bac7f4f420859e19a77df20866884852f369994aa6f3a2af0a76bedf3dac",
+  "manifest_sha256_excluding_self": "d54c2695817774c5aa93c72972b654dfa255c5fb8b4e02794adf7b3468651ccb",
   "ok": true,
-  "record_count": 65,
+  "record_count": 66,
   "records": [
     {
       "companion_path": ".doctrine-index/ARCHITECTURE.md.doctrine",
-      "companion_sha256": "7b708b3fb40740fc41a1230574b2cd0911db33cd9022a2e720152dde554529ad",
+      "companion_sha256": "9d23fc94f44f2ec35504cda3e12c31cbd7f3e27ebaccd525e9dac65d2427f684",
       "projection_class": "public_safe_index",
       "source_path": "ARCHITECTURE.md",
-      "source_sha256": "f63c0071df7e8ec4bc8786bdc6977c64e97881f0f964e1490ea656015c5d09c7",
-      "source_size_bytes": 2875
+      "source_sha256": "40b543b5711c28dbbf0a7a4cf7829b72284706a298bcddb28e9d04613d2a4f49",
+      "source_size_bytes": 3837
     },
     {
       "companion_path": ".doctrine-index/CHANGELOG.md.doctrine",
-      "companion_sha256": "fe810e2fcc16d5f3cee9d9f3d5e4169c99ee6096a3bf58b49459f74a6b71e01e",
+      "companion_sha256": "578cfa2d12e6a201c15d6d75d1b8c9eb2b4b4acd26e709d3725ba300c4b1d87b",
       "projection_class": "public_safe_index",
       "source_path": "CHANGELOG.md",
       "source_sha256": "057d853c62654e9d6d55a508b51fb427b5915022d3743624664878ee1bc2eb9a",
@@ -23,15 +23,15 @@
     },
     {
       "companion_path": ".doctrine-index/COMPATIBILITY.md.doctrine",
-      "companion_sha256": "9405a7dc5fabac0196277de76b53aba8bc06f2adfe4483da1c07db2b444cae08",
+      "companion_sha256": "02f8f61397f85d4cfe5ba212b6248c07600ed566e2a4ba086a826a9a935df7f3",
       "projection_class": "public_safe_index",
       "source_path": "COMPATIBILITY.md",
-      "source_sha256": "7a499a6a974e2e7a65adad1d6177ea3fd5087f977fff9e0e63185c5ceadba548",
-      "source_size_bytes": 1255
+      "source_sha256": "df1cb5c9b087feec1bb2c6414c925e2bfefc2a0a1fb053a6845ad9613da1e5a2",
+      "source_size_bytes": 2044
     },
     {
       "companion_path": ".doctrine-index/CONTRIBUTING.md.doctrine",
-      "companion_sha256": "566e50a1af25f87fb5bf9dcf8896d148d75db51f36b1cbc6191e9b5a07e288fb",
+      "companion_sha256": "296791304d968568dd5e2cd485d2a3c2bab7da4135e4f898d9424dbfd0b11cb3",
       "projection_class": "public_safe_index",
       "source_path": "CONTRIBUTING.md",
       "source_sha256": "fe4fec32216c01c8e892f2f227fd7425da24452d211a04db718d610b262ef08c",
@@ -39,7 +39,7 @@
     },
     {
       "companion_path": ".doctrine-index/DOCTRINE_FILETYPE_V1.md.doctrine",
-      "companion_sha256": "47c07dd77898934a16fd3b2d77656ff371e72cec40ad37812ed6507d7207ec73",
+      "companion_sha256": "cdaeee2acdf7bb5042a0a42c274e8b0245753930eb7a96c687b517f8d4b50e3d",
       "projection_class": "public_safe_index",
       "source_path": "DOCTRINE_FILETYPE_V1.md",
       "source_sha256": "5a821373c405c1c3dbac26d09fe35971fba413c039d644206997f2d78ccdbb0a",
@@ -47,7 +47,7 @@
     },
     {
       "companion_path": ".doctrine-index/DOCTRINE_NATIVE_FILETYPE.md.doctrine",
-      "companion_sha256": "6e8b88b11f8babe28c49d6761d99fbaa301bc0e71c4d1749d8ab163cb160d994",
+      "companion_sha256": "3bc25c91382f50e1fbf511c763d04aeed64fc63e26b3ad8c4d97d2b68338d915",
       "projection_class": "public_safe_index",
       "source_path": "DOCTRINE_NATIVE_FILETYPE.md",
       "source_sha256": "e6df6061a676cbce5fa50206ae1f517623fdfb463211fb9a67481f1e8344017c",
@@ -55,7 +55,7 @@
     },
     {
       "companion_path": ".doctrine-index/LICENSE.doctrine",
-      "companion_sha256": "fe2b8a26bd2b7bbd6e70088aed5ca4f32d4c1006a6fe295e8f4c78ef12e328ea",
+      "companion_sha256": "d63e14045f8236ed25513caec6c570316545fa8ee5e459984b25ac236b36f725",
       "projection_class": "public_safe_index",
       "source_path": "LICENSE",
       "source_sha256": "9c67be7bbeccfbbee94b740ed34daf8471cfc201ad5b59e28382073a475190ac",
@@ -63,7 +63,7 @@
     },
     {
       "companion_path": ".doctrine-index/NOTICE.doctrine",
-      "companion_sha256": "635c45bcf33a93262b5b52d71df53521b2ce72ed07b46804ac6237ef01d5d2c5",
+      "companion_sha256": "345600c19a0853f7bbe73dc43fe88069ac96bb79030fce77efbe730b07fed178",
       "projection_class": "public_safe_index",
       "source_path": "NOTICE",
       "source_sha256": "b1a6053cf2899f4183f06e4d7d2ca68655bfaeea1f6daf2b22045520effb67c8",
@@ -71,7 +71,7 @@
     },
     {
       "companion_path": ".doctrine-index/README.md.doctrine",
-      "companion_sha256": "74bb243e59af0a8625d657bb5053058e4781c544dc57312533bdb16cb8431eb6",
+      "companion_sha256": "c1cfee3018c1d4ff29715ed12b599936dcf4759d8d5c3f102145a39d02f9c96c",
       "projection_class": "public_safe_index",
       "source_path": "README.md",
       "source_sha256": "a71b6448115ede8d38de5736bf6d6c66747ee71fe4255288d9e3707c16dbc645",
@@ -79,47 +79,55 @@
     },
     {
       "companion_path": ".doctrine-index/ROADMAP.md.doctrine",
-      "companion_sha256": "86af836c7102ad77e58e59e817608ead640e0837cc0dc01ffa3601c9d2d793ce",
+      "companion_sha256": "fadd4dba7a679c8f8c3a857672de4f0a34a77a5119a4756457dd5e5c653a651c",
       "projection_class": "public_safe_index",
       "source_path": "ROADMAP.md",
-      "source_sha256": "fef83310875bb224ef57b024497fa97dc5cd9c8ef30901b976b39cafff0e386e",
-      "source_size_bytes": 2420
+      "source_sha256": "bdde4b8472e1a6865c69bcbb661710faf61cd5e0d68ed5f796fb1ccd2f500e65",
+      "source_size_bytes": 3632
     },
     {
       "companion_path": ".doctrine-index/SOUL_PROTOCOL.md.doctrine",
-      "companion_sha256": "a3f7daef14ad58c3d33e99514a10aee93f341673f0488b8c27e852af602e76fa",
+      "companion_sha256": "d51d6f37de13e2dfc34f4377df656e9a659adc1bfba886a21402b8bc210a1b68",
       "projection_class": "public_safe_index",
       "source_path": "SOUL_PROTOCOL.md",
-      "source_sha256": "46dccca413afe25bcff49c2e83668eb6800bbcb4ffc89a5924ded462c481e22e",
-      "source_size_bytes": 1696
+      "source_sha256": "eaa333a466e2e546b256c06a124564955525fbbb5643ddf0a9e81dd53fb48081",
+      "source_size_bytes": 2832
     },
     {
       "companion_path": ".doctrine-index/SPEC.md.doctrine",
-      "companion_sha256": "ade30f36b3bfd1d7f8ce43f843c7ae2d4ef3ae5342835a9e959962bd345b1afd",
+      "companion_sha256": "a73aa25ff216045ce4cfb89e0ac6d62b6a62ad3ac92bd27b2521928600943d99",
       "projection_class": "public_safe_index",
       "source_path": "SPEC.md",
-      "source_sha256": "c8fef8c042473981b53757dd735cd44df5d3d1623d41b4dae0cf7f1def20c672",
-      "source_size_bytes": 4306
+      "source_sha256": "8a0f8a0758e277efaa29b716da524fe61a3ff435d97f77378756979fef8c7e07",
+      "source_size_bytes": 5425
     },
     {
       "companion_path": ".doctrine-index/VISION.md.doctrine",
-      "companion_sha256": "49377d44341a72108a46b28173270cebd0da81bd98b68c2e6fb9e2ad8adf0690",
+      "companion_sha256": "d2f8d33251b45853591c8272830b6075773c2c362f5da58ed234f2228b20b3a5",
       "projection_class": "public_safe_index",
       "source_path": "VISION.md",
-      "source_sha256": "d96deb69c156a8979578034ec0277ff55159f2dfa22168d5b4bf89eaed87c3cf",
-      "source_size_bytes": 2253
+      "source_sha256": "d3dc64c6e57f3dba8332fb5a0176eef73b46b17823f2f0928a5b8fdee333ec6b",
+      "source_size_bytes": 2946
     },
     {
       "companion_path": ".doctrine-index/docs__capabilities.md.doctrine",
-      "companion_sha256": "8201b1deebc425b3b8ac821aba7bebc4ff9c58ac6691240482c94c2a4c15f2dd",
+      "companion_sha256": "9e2bb414cc50e7602bdeb0dc4594747edbedd9bd027b1b8b73511868af151b1f",
       "projection_class": "public_safe_index",
       "source_path": "docs/capabilities.md",
       "source_sha256": "ac3f9e7918c5d38e0aac5c5cb4999dee74c10069f4a41854f9c9c93bb05e7c78",
       "source_size_bytes": 1758
     },
     {
+      "companion_path": ".doctrine-index/docs__how-it-works.md.doctrine",
+      "companion_sha256": "ccee87252708e8e24bbfdd3cf88ef45684159dd2ac1da62a9374532dceea4686",
+      "projection_class": "public_safe_index",
+      "source_path": "docs/how-it-works.md",
+      "source_sha256": "cfcfe3b50aad9bdce0d6b7a0878770f1537b57094c490658892d6fffe04e3ee7",
+      "source_size_bytes": 4838
+    },
+    {
       "companion_path": ".doctrine-index/docs__prototype-shell.md.doctrine",
-      "companion_sha256": "94346a503ec295fa44a2fe0fa01276387f447b4253bf2834c6fb44f9c1a58990",
+      "companion_sha256": "f179e30cfc6b54287be95c347a13b24dd21e8befdf0778cd5ba6d63823d1ae79",
       "projection_class": "public_safe_index",
       "source_path": "docs/prototype-shell.md",
       "source_sha256": "eb8704a8879e37b458e1a47bb2f7c0037461c0194cd0d854c79a6bdd0cd946fe",
@@ -127,7 +135,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos____init__.py.doctrine",
-      "companion_sha256": "d6f8afa264515a6220eac9ba09eeba59ce4ef95803e1246c6b8fce656bbed1da",
+      "companion_sha256": "b76528c02984793b8ac67ec9d6590dd9d8fa187a6d7b22d984b6508c7942a0dd",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/__init__.py",
       "source_sha256": "52eca3a86121221a307a150855cd320d429747b7aa0893970d8aae6be310a17c",
@@ -135,7 +143,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__adapters____init__.py.doctrine",
-      "companion_sha256": "efe72c0fc1f49b9b32fc264d3790fed72a11e31d553e3b918a67a76798e88c95",
+      "companion_sha256": "545f19b05c5cb97bee1bb1be84ee85cd090805b0b61f7f51ef2013ec4154e2b2",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/adapters/__init__.py",
       "source_sha256": "1c6e8f2159b538b0f5a45b39c4a32fd3582649176dd7957d4f47736282f39b35",
@@ -143,7 +151,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__adapters__stub.py.doctrine",
-      "companion_sha256": "dccd87ecabb449ef976196c4607b1215e658dc13004442e52d379e3321bdeed6",
+      "companion_sha256": "e53db5df28ab25984174374085b4276a15d22e979edbcf9749a277d10951c555",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/adapters/stub.py",
       "source_sha256": "e0734745e18a81c3004d15d19c6729780c4476f01c889978f52f2dc5ea73e58a",
@@ -151,7 +159,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__capabilities.py.doctrine",
-      "companion_sha256": "c435bfc98c7bfe13da9a4bd6888b23784557ce5e116e27238ad3a1f4ef6a1375",
+      "companion_sha256": "455c6acb4f68b0774a2243241bf1f5b99ea07974940425a46dca3022d8ce252c",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/capabilities.py",
       "source_sha256": "840998eb33588260594bf9ae118f540b1f97d26efaa9d1d58189b45fac6354cd",
@@ -159,7 +167,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__capability_kernel.py.doctrine",
-      "companion_sha256": "06dc27dd41196c781eb2b0f3c89fcc3e212b3cc642c9212836f5c6ca1a7b3f95",
+      "companion_sha256": "bd93261933b6a698e6ce3795daacbae875eed186375086ebce6b354d87fb5edf",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/capability_kernel.py",
       "source_sha256": "15c8107ea5b58300de9079cdfc2739147a422603e7dc3c9b12975eb366efa20e",
@@ -167,7 +175,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__policy.py.doctrine",
-      "companion_sha256": "d4d1ae37915eaaae15cc3cb7de33d1c9953e92defc2fbd75556b16188954e531",
+      "companion_sha256": "5e0af588ebc07dbc4e38bd538dc504bf79fe37df101f89929c042c905aedd34a",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/policy.py",
       "source_sha256": "00b018c2aea4e3b6ca83259fb74b158a7004f912473cf453c0bf3d399b54c6a6",
@@ -175,7 +183,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__profile.py.doctrine",
-      "companion_sha256": "dd5cd03d6ff44373b3cc24e7194023414f952d132e11b3b4d2666a0d38f036d3",
+      "companion_sha256": "9bfcd2da1bd8ae4fc2bdc74580edc2fd266386e07cedd95cb24179e9f61dd125",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/profile.py",
       "source_sha256": "23c418f4900d86dcb2f947d71e5fa386f3d410f64990728e27dc37e72838238b",
@@ -183,7 +191,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__receipts.py.doctrine",
-      "companion_sha256": "8d70f9a7e1e7ef43e19865f68be0662e68e53cb00a3e9fe5ab7281cc7e81f5f3",
+      "companion_sha256": "efeef47bc7a2d81c3f69d21be077dab2a1109788fbe944279e5950a9443c8293",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/receipts.py",
       "source_sha256": "570dff3ef6f700f84c7145a35e8888d4de1a047ab99900363d11af2a1f9fe816",
@@ -191,7 +199,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__runtime.py.doctrine",
-      "companion_sha256": "ee6ce0db36d1ab1ff537a7ba6a12b885d6bc88bcdd15b9d897197405f41f5e20",
+      "companion_sha256": "2af1eb70e0a94db3ef11e436edc788a4a75500f9e840a96420c90ef09c522da4",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/runtime.py",
       "source_sha256": "4a88cf2645f885098ca6733b8addea5dac14f758216e692c92c8ff9f7d8393fe",
@@ -199,7 +207,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__shell.py.doctrine",
-      "companion_sha256": "d9e3446cfce0aa47f6fcb0b104bd544eecb1dd89322fa9e2bb735aa11085da6c",
+      "companion_sha256": "561fb4e1d553b6c8566f42ddd488df12d50a3d87adb7413a3280cf303de7fcc2",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/shell.py",
       "source_sha256": "f3f1bdefc6659ec67f617226e3ceafbe851b593e013f082c5b7bd516495e5865",
@@ -207,7 +215,7 @@
     },
     {
       "companion_path": ".doctrine-index/doctrineos__state.py.doctrine",
-      "companion_sha256": "7ff9b017c988d5e7f18208097de05a0fe65aceb7f4051696971f3614fbe47c00",
+      "companion_sha256": "fe4ff3cc4ec0f8a2e78381e49c07566b45137fba2e72079f3d31f8575238abde",
       "projection_class": "public_safe_index",
       "source_path": "doctrineos/state.py",
       "source_sha256": "44fa957a5d324bdc39fda4eca7be7829afa513aff14743d2fa198eb72d1b5ac6",
@@ -215,7 +223,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__README.md.doctrine",
-      "companion_sha256": "30c8ecc8d92c7b302cbb4005ef87aaf6574020ef6c2f2850c4ed9fb53f9ed35e",
+      "companion_sha256": "4bf0198b9c80601b2e4e9e403133c9e773ac6563b68ec8a7378d5e3e0502538d",
       "projection_class": "public_safe_index",
       "source_path": "examples/README.md",
       "source_sha256": "269b8b19bf74088e7b508d2a8ad90bd543a8f135f1f3b0ca243988a4a4ac950e",
@@ -223,7 +231,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__api_payload_adapter.py.doctrine",
-      "companion_sha256": "8da905120fe1a3f9c3883668da13186a45142ce0240dd5dee3bc25271f2430fd",
+      "companion_sha256": "738b76574b45b5a03dc3d05e41d9482e8e46eac6ca049640e6b6c2fd8ce1c8a9",
       "projection_class": "public_safe_index",
       "source_path": "examples/api_payload_adapter.py",
       "source_sha256": "fc435c2ab085d422a24eadcdf45faec080b76fcd32971d82e5b740d80f1054d9",
@@ -231,7 +239,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__basic.doctrine.doctrine",
-      "companion_sha256": "5072d6ed931fe844c613f591f27a38c16ff1b4691b6d86c1d9b9c70e3a3a1e50",
+      "companion_sha256": "2a0fbadcaf67b5d222f4c5dde0626eb2ea8bfb78ab13654ba51231bc4ec1a49f",
       "projection_class": "public_safe_index",
       "source_path": "examples/basic.doctrine",
       "source_sha256": "d589889dca925ca7f3dc773adf85cbada70431c3c9a1c0082b8826d566db96cc",
@@ -239,7 +247,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__local_model_prompt.py.doctrine",
-      "companion_sha256": "45847c4c6231548af651dac626fd1438134eb9162ecdf51a26bcdc3de9310eff",
+      "companion_sha256": "5606efcf407823330e4dc89d9521011e65363424c335bfbd99a34c2c434889de",
       "projection_class": "public_safe_index",
       "source_path": "examples/local_model_prompt.py",
       "source_sha256": "311b8b4abfa7dde6c4ea586c9d8fedc205b0302b4c58a02b0b84e667306ca753",
@@ -247,7 +255,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__mount_standard_template.py.doctrine",
-      "companion_sha256": "bd5d802c33631aa7164ecb1eae16b1b1301b01ec122e1c48a7c85a1a21e78187",
+      "companion_sha256": "e179c5f1191fa155cf79718980214d5c21d18d655f256d13ce792030bc8a51ec",
       "projection_class": "public_safe_index",
       "source_path": "examples/mount_standard_template.py",
       "source_sha256": "6ab7b3f086247c62d85fee4cfa3a2dd7d9217ebe62e0271ab15fb637040ca511",
@@ -255,7 +263,7 @@
     },
     {
       "companion_path": ".doctrine-index/examples__prompt_context_export.py.doctrine",
-      "companion_sha256": "6d2a32f98709747709a3bc9b203eb704f90ec6d713d5d6a5440f5d18b6b196c4",
+      "companion_sha256": "1aee4d243dd2f629cbdd22a58ff36e5412f28cc35638c9506f2d6772214ab794",
       "projection_class": "public_safe_index",
       "source_path": "examples/prompt_context_export.py",
       "source_sha256": "70675fec6015bf96bb4691748b3e24fd6a761c7e628d3a1efcb846c7a74c6a46",
@@ -263,7 +271,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__README.md.doctrine",
-      "companion_sha256": "d1f254c834d752651c438bdc2ccf9f229b934dbdb3098258ade384f0e988b35c",
+      "companion_sha256": "2784b1bd21ff58d07dfaf8e950380b4de5e4acc34f9bb09e687e06ceb6ac9451",
       "projection_class": "public_safe_index",
       "source_path": "nodes/README.md",
       "source_sha256": "c70c890e81ddb20b0f3aad898f5d8346c49346c77434257b0513d4fdf5c99eb8",
@@ -271,7 +279,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__anti-drift.md.doctrine",
-      "companion_sha256": "e6a7cae823a944a322aa8cf913404338a133c21c797dd4a76e0c67d944e2119c",
+      "companion_sha256": "560400e9a8c32da1d76550ed097b6b3f5b1aaa383e9dbe6f7981241b0d856dc4",
       "projection_class": "public_safe_index",
       "source_path": "nodes/anti-drift.md",
       "source_sha256": "2bf3ac62019cec3b9aae66933a4568f758cf15add53e05df03a9749e141a4f17",
@@ -279,7 +287,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__clarity.md.doctrine",
-      "companion_sha256": "5116167a594bd79b1b4ed25a126a6566f05b7e50285e5204ef9272845ff1507b",
+      "companion_sha256": "eb7705028d71948e447ab4923ee0c53f20ad52ab139663d9ae6f137bcf59ba81",
       "projection_class": "public_safe_index",
       "source_path": "nodes/clarity.md",
       "source_sha256": "d1db4e3947a085e3312ffe1a624555e69665b935cc27d25fe2ea029be0637b00",
@@ -287,7 +295,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__concise-response.md.doctrine",
-      "companion_sha256": "bc03bd1e399059cf88302d4a74f4410a947d28b8ccd5ae451f040b25e59ef7bd",
+      "companion_sha256": "5a6e3432fd3c58b9aa0c9e155209c8cfabd519d4b07954da515545028b164b56",
       "projection_class": "public_safe_index",
       "source_path": "nodes/concise-response.md",
       "source_sha256": "640a0b059f22db03637936bda84aa1758c1541ca66e4e56985aabfcef73dec1d",
@@ -295,7 +303,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__example.md.doctrine",
-      "companion_sha256": "115dbe2d9332bc63d8251819ef7eedf0ef7a1423ebd9911241c7b94e40faa8f6",
+      "companion_sha256": "dd23686b71ccde5dccf947943a35f28f47f974a2b8f44c320f6417dced00137e",
       "projection_class": "public_safe_index",
       "source_path": "nodes/example.md",
       "source_sha256": "617ea113493aedacbefa3313c0d9fa741c13c4bc7151431b0ea94c330cf9ca51",
@@ -303,7 +311,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__safety-boundary.md.doctrine",
-      "companion_sha256": "c2b53e63607b76c6233132057d25c2253bc80684b9269c16c401f9a86b075d30",
+      "companion_sha256": "eba7e1969006099ddf5253a3e24da6eba39ab11e13088c6139891990a384c434",
       "projection_class": "public_safe_index",
       "source_path": "nodes/safety-boundary.md",
       "source_sha256": "d6399b740727566f868d80100a46fef83ce9c4c5527630354acff8828c4196d5",
@@ -311,7 +319,7 @@
     },
     {
       "companion_path": ".doctrine-index/nodes__user-authority.md.doctrine",
-      "companion_sha256": "4c7b7316f20c4791ce034433542edd44cb5d505b2c93ad182e56b9de3f65ef08",
+      "companion_sha256": "1f37bf77a41ce6633613c300848b3a0f991b3ccd2d763cbb5c5cef15c267bc7b",
       "projection_class": "public_safe_index",
       "source_path": "nodes/user-authority.md",
       "source_sha256": "6f7bfa1451ecb60718ed88a29f4bbcf4da90f645a6272ad58d8f39bfb30c42e5",
@@ -319,7 +327,7 @@
     },
     {
       "companion_path": ".doctrine-index/profiles__default.doctrine.doctrine",
-      "companion_sha256": "21aeac6e6e3c38d9765a4a54425ce30fbbbbc21e0d022ecb4955931ba9251db3",
+      "companion_sha256": "dd59f0829a7eb2371a7cc1cd797822acd83f1dd2cb1f4b73d3e7dd0e40b11159",
       "projection_class": "public_safe_index",
       "source_path": "profiles/default.doctrine",
       "source_sha256": "e1fd111f09ee2641a673ef95cc06f68cef5a183a99bf5356c5c56f5ab9a73fd2",
@@ -327,15 +335,15 @@
     },
     {
       "companion_path": ".doctrine-index/public-evidence__PUBLIC_DOCTRINE_L1_DOCTOR.json.doctrine",
-      "companion_sha256": "11e79e9b4a2120e362e520a4ede09b43125fd262f8c86b62f3216ad53a9d0ecd",
+      "companion_sha256": "eeaac8b3206e3acf9c1b4bfbf9573a37fdc18c1f8337cdbf57fa5729e3f6c37d",
       "projection_class": "public_safe_index",
       "source_path": "public-evidence/PUBLIC_DOCTRINE_L1_DOCTOR.json",
-      "source_sha256": "1f3c2653cf91059a367919355f11584b5a8823c9f0f256270aa42b348d82ac52",
+      "source_sha256": "5c5f1a2344d2e803b06ff3594da7795dfeafa0693243150de1aee170beeda491",
       "source_size_bytes": 19267
     },
     {
       "companion_path": ".doctrine-index/public-evidence__PUBLIC_SINGULARITY_SWEEP.json.doctrine",
-      "companion_sha256": "242c59c5d1425edb28fa5ae0947c31bb393bf3ddc41d82931c234c6fd59fef35",
+      "companion_sha256": "55d928e713411be028a8bd7e8d33002cef7ed8c24faa63a0bb4274404364de97",
       "projection_class": "public_safe_index",
       "source_path": "public-evidence/PUBLIC_SINGULARITY_SWEEP.json",
       "source_sha256": "70b5adff15040d65e719ae11770f88a284ce5092b314ab667d9dbe99f00fff3c",
@@ -343,7 +351,7 @@
     },
     {
       "companion_path": ".doctrine-index/pyproject.toml.doctrine",
-      "companion_sha256": "b4bbe0a2972554cc5c5ccd0ae354976a62c6cb02cfd3fc04450c22b315bfb3a2",
+      "companion_sha256": "fb44bac8b268a4363e2532c68f6e9a0ec60e3233f38bc0d1e6a0bed4c64e8108",
       "projection_class": "public_safe_index",
       "source_path": "pyproject.toml",
       "source_sha256": "8e20a52a52f3918660a7b92424a4ca54f288c7dc2d05880e98eefee1cec64978",
@@ -351,7 +359,7 @@
     },
     {
       "companion_path": ".doctrine-index/registry__index.json.doctrine",
-      "companion_sha256": "644d80716f83df07ab7d3dcf230e2dd0aa66da3f6e84f9f587f1893ec6c5c366",
+      "companion_sha256": "16ab501b3fdd0db8ac5d6f1c88dd7bb65f0615755ac6354b19c19158f450ea35",
       "projection_class": "public_safe_index",
       "source_path": "registry/index.json",
       "source_sha256": "5716b70632067f4f353f359e7da334edf4fa43874355a12b4e6d7a4ad7a1d922",
@@ -359,7 +367,7 @@
     },
     {
       "companion_path": ".doctrine-index/scripts__run_filetype_tests.py.doctrine",
-      "companion_sha256": "e0b1b64ff6e94b6536ee8ca5ae4bc54eec602ed1748adedd72fc9157266664ed",
+      "companion_sha256": "7bb1601ea3bc38337446fc859dc4ceda0c6a1aaf8030ec9a029a63e4647c6abe",
       "projection_class": "public_safe_index",
       "source_path": "scripts/run_filetype_tests.py",
       "source_sha256": "c7491ab6520fc75fa68be4710ed245d18526514e5ec1ecbe2d1e9f3c94c6d14e",
@@ -367,7 +375,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk____init__.py.doctrine",
-      "companion_sha256": "e22bf49b56e31c7459a8c9add96613639e495ce61f6cb926cde4714752fd3ccc",
+      "companion_sha256": "cb9e8fbcbfd347fd349d170c8d01d2a1573c1fa61df217f84bd36eed0f187a42",
       "projection_class": "public_safe_index",
       "source_path": "sdk/__init__.py",
       "source_sha256": "2a87d755442b6c4a715a066083b10ed06e14e0ddeba009bafdf4b96a168adf3d",
@@ -375,7 +383,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__cli.py.doctrine",
-      "companion_sha256": "ab7ff337795f984e3447d1ce4065f9b9b79ef33286d94c2fc9f73cab23cea8bc",
+      "companion_sha256": "9baf784e43cc4a680adcb9fafeaa714e76d4c6cb344a4896fedeac0e36c4b750",
       "projection_class": "public_safe_index",
       "source_path": "sdk/cli.py",
       "source_sha256": "e20260e886279d86883b40cf4bafe84f14b27d55b58ebc3015875762d6e2b556",
@@ -383,7 +391,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__doctrine.py.doctrine",
-      "companion_sha256": "a45e02c3b013f6946308d312ee7dd0b0eefa8e24f1f046b6c83cfda3157b29fc",
+      "companion_sha256": "2040cb10da55dcd63cc9e8bb87b47bf240b0e775a552e62209326752e6e9ebe7",
       "projection_class": "public_safe_index",
       "source_path": "sdk/doctrine.py",
       "source_sha256": "fe48db587d42e8215ae48a6cbb3d0e802ca9e33f7ad42b892927a9e6f1dd3bd1",
@@ -391,7 +399,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__filetype.py.doctrine",
-      "companion_sha256": "f5749cd9995d70385a58b1cad0e9af63cbcab20ec31e2b24a8b7e85403a6d08e",
+      "companion_sha256": "8368f03ac2b75767a28a8a3541855d301b9329e7d0b8ba4782c89428a87ff648",
       "projection_class": "public_safe_index",
       "source_path": "sdk/filetype.py",
       "source_sha256": "5cce427025e4924cbcbe29a16c5922a934a697e88e36ea0635022358768e115d",
@@ -399,7 +407,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__mount.py.doctrine",
-      "companion_sha256": "fedf8a5207ab5061e8e31eeb0caee9c9011579b80d148e628b324150ffddfaac",
+      "companion_sha256": "68183f82282a01e6ed470745fedd4199917a3353483bdf90404a6472087b0b62",
       "projection_class": "public_safe_index",
       "source_path": "sdk/mount.py",
       "source_sha256": "f83e4ff1387d1e71ab9125d439e4aabeac48014769c7c78f492483fc424022f0",
@@ -407,7 +415,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__parser.py.doctrine",
-      "companion_sha256": "1bf2f7a5c59b7c70f227c1904035ce7ed205189dbea0b149ec6d725ffc82a7de",
+      "companion_sha256": "a3bb4dcce98feeabe01bc6e961be2fa020f6f5326f018c8156b8bec113bc2638",
       "projection_class": "public_safe_index",
       "source_path": "sdk/parser.py",
       "source_sha256": "d2e76519de6aafaacacc9d83b65f74bf475c731116d28d7294346dbde56069cc",
@@ -415,7 +423,7 @@
     },
     {
       "companion_path": ".doctrine-index/sdk__validator.py.doctrine",
-      "companion_sha256": "b24a8006b4ecaed772081106164a90fcf2bf880195ef4b14c9f0bc4f12d04502",
+      "companion_sha256": "08c691a29213dd6cc1bb13951da64b07608a1eeb377d3af4f1be3f8b116935f5",
       "projection_class": "public_safe_index",
       "source_path": "sdk/validator.py",
       "source_sha256": "dee7979b3c8836b846f9bdc529e71b9e73065055778bce0c6b7f469fa7623285",
@@ -423,7 +431,7 @@
     },
     {
       "companion_path": ".doctrine-index/standard_public_template.doctrine.doctrine",
-      "companion_sha256": "78475a9f348a1721a547e362d2ad8a8e2360ac95feb6296fd34b933bbbe652d4",
+      "companion_sha256": "8bbceb3eb1a38058bd49675f56b313d1afe59e7eaa186b57aacafdc455fd6562",
       "projection_class": "public_safe_index",
       "source_path": "standard_public_template.doctrine",
       "source_sha256": "0026be4f550f3a899df3a86a580ebde1664a3b05ccfe7ef1d99a8a9f9c64afc0",
@@ -431,7 +439,7 @@
     },
     {
       "companion_path": ".doctrine-index/tests__test_capability_kernel.py.doctrine",
-      "companion_sha256": "9e1d1e09ece476fc8925e7cbe2df16f10138f445a0029712acb58beee2acdc1d",
+      "companion_sha256": "ef685cbc9b430ea0f5c27538ef5d2f21551f21fffcdf5bcba684eb5b4d43f77a",
       "projection_class": "public_safe_index",
       "source_path": "tests/test_capability_kernel.py",
       "source_sha256": "2c7a3a4f43663c2c5a50b4e3e517f2d5c65ef3c713b416c3e574c054d442b71b",
@@ -439,7 +447,7 @@
     },
     {
       "companion_path": ".doctrine-index/tests__test_doctrine.py.doctrine",
-      "companion_sha256": "657f7fb29b82f52d3d1da22d85c62b622a14c98a9379c3ed83ea2473f9a10fb3",
+      "companion_sha256": "96ac5885912b90a69c2b1c4914a03fe9e9259ed47038f524a57ee0354fbd84c0",
       "projection_class": "public_safe_index",
       "source_path": "tests/test_doctrine.py",
       "source_sha256": "7e138aad2cedb17ecb852db01cf27e0c5417773befc27abd685227ff7008e0ea",
@@ -447,7 +455,7 @@
     },
     {
       "companion_path": ".doctrine-index/tests__test_doctrineos_shell.py.doctrine",
-      "companion_sha256": "f116545b60bd74ef121f0b11973568a7e3f0cd565233e40b19ddd7de7efa0ed4",
+      "companion_sha256": "9eb866134bd9a02a17efb3227467200fb01a4ca2bc620489f2e6583aa72fbe11",
       "projection_class": "public_safe_index",
       "source_path": "tests/test_doctrineos_shell.py",
       "source_sha256": "2513af74660a00c68babd63a35e31fd21464c98eaf7a0903433986a84c24d129",
@@ -455,7 +463,7 @@
     },
     {
       "companion_path": ".doctrine-index/tests__test_examples.py.doctrine",
-      "companion_sha256": "95cf69b85ae268c90e6e867424386f8850c19f70e93eec7e01a5ab22c8a16360",
+      "companion_sha256": "9f12eb157eeb76ed0bcf5b543d49305fa8eb0e0d429529b4a37bf124645bf433",
       "projection_class": "public_safe_index",
       "source_path": "tests/test_examples.py",
       "source_sha256": "1bb9c50a5e93aa475fb939f6fd53429243ed0b648639321b96a3a1772bf1e9c5",
@@ -463,7 +471,7 @@
     },
     {
       "companion_path": ".doctrine-index/tests__test_filetype.py.doctrine",
-      "companion_sha256": "85542009ff5a27cfa1c855e5564e46e789eb76fa7e0aa4d5a4ddec2388fe3537",
+      "companion_sha256": "33aa27fef0b6fdee198d50b56eec7c5ccc9f85f863c9fda500ac26bb2f46859b",
       "projection_class": "public_safe_index",
       "source_path": "tests/test_filetype.py",
       "source_sha256": "1e4bff8ab8832a13511764734dcd4276ea6f2d713371134f873d8657b9d176cd",
@@ -471,7 +479,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__build_registry.py.doctrine",
-      "companion_sha256": "d56f7155c40d6efefc7417d60886dcc4024cf8d4569c078c04aa9bdf4b1a1916",
+      "companion_sha256": "eea6197801e3f7608e0e5a7ebfe9e12e82e8b64eb2425f828427b6a5902dd828",
       "projection_class": "public_safe_index",
       "source_path": "tools/build_registry.py",
       "source_sha256": "77194c28951747c2b34fcb08d55f303767f307379aa91bf13d48152d1ffd9212",
@@ -479,7 +487,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__check_registry.py.doctrine",
-      "companion_sha256": "f0d2613643b842f89dbd3f88068b21ae00960c505155691127653c7a2940ef53",
+      "companion_sha256": "9da787d98778442be3211babdfc9cc23b019171c65a55f656008cb4869e7d069",
       "projection_class": "public_safe_index",
       "source_path": "tools/check_registry.py",
       "source_sha256": "4769cc8cea8b49d31c14ac3c737aa1ec523475db38d56dce5c6ee79334caf1fa",
@@ -487,7 +495,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__check_soul_protocol_standard.py.doctrine",
-      "companion_sha256": "c74da7c3703944809750517e6aa2634cc07cbf4cc9a5bc4a36385dc585eb6e44",
+      "companion_sha256": "e8b1d436831a0890bced9b4f37e921058d16e34b449ed67fe764d1cc220c7d87",
       "projection_class": "public_safe_index",
       "source_path": "tools/check_soul_protocol_standard.py",
       "source_sha256": "28b29a840dc897dae4f279469b31aab498562c0002bc5250f9da012d3c910e72",
@@ -495,7 +503,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__node_files.py.doctrine",
-      "companion_sha256": "a912bfa66ed077e2a20e519f4cf4ee58c091ee35dd05aa16856608aa9021d8c3",
+      "companion_sha256": "594d8683139156540d363eaad760fe3879578305a76b4bc09a9a67cbe425d182",
       "projection_class": "public_safe_index",
       "source_path": "tools/node_files.py",
       "source_sha256": "348a84004e324c046bb27978c136b3c7df9fa5f6d4fb133ba945d687015fc652",
@@ -503,7 +511,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__singularity_sweep.py.doctrine",
-      "companion_sha256": "ac2d6204ceee198995f56c26609f2c29962e9309bcacb5a38a662d5027917f47",
+      "companion_sha256": "a556dbfc76f077f8aff7b297cc3f462f8fe7c02d3b11f2b38246660f00da165b",
       "projection_class": "public_safe_index",
       "source_path": "tools/singularity_sweep.py",
       "source_sha256": "1acfdd3df27d45b700c1d3c2a3570273752c8c6a18f9f37684a4fe7906846f56",
@@ -511,7 +519,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__validate.py.doctrine",
-      "companion_sha256": "0cc63ab6479816042a773ea1dcd1303fdc93aad3b99a42345cf278c89af1b584",
+      "companion_sha256": "e451df8c033c44b06558b1cb469431abb5711f69b8c28d29ad91cdf8acacc77e",
       "projection_class": "public_safe_index",
       "source_path": "tools/validate.py",
       "source_sha256": "5fb324e6c3593b3b908949ea98e52637b5e5c57c9e8d1aa1c29fa2d28d205fd4",
@@ -519,7 +527,7 @@
     },
     {
       "companion_path": ".doctrine-index/tools__validate_nodes.py.doctrine",
-      "companion_sha256": "714d23a73c6d2290e9a95347c912e602d9f6be3ffdac5d8d526de259054a8d4d",
+      "companion_sha256": "b72d2f14b02cbb2b702214e4dc7d2d8b77d980e21d720fdffc8892781b2feca9",
       "projection_class": "public_safe_index",
       "source_path": "tools/validate_nodes.py",
       "source_sha256": "7ce0c3f14540182fea164552152eaf016ec3bfd20a415f9728b1f853e50a7294",
@@ -527,5 +535,5 @@
     }
   ],
   "schema_version": "public_doctrine_l1_manifest_v1",
-  "updated_at_utc": "2026-05-02T04:09:30.675064Z"
+  "updated_at_utc": "2026-05-02T04:12:04.115288Z"
 }
