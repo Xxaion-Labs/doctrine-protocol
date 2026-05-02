@@ -5,19 +5,7 @@
 ```text
 .soul
 
-    (digital)
-A                Soul Protocol object
-
- ⧉
-```
-
-## Meaning
-
-```text
-.soul                  = public filetype trajectory
-(digital)              = qualifier
-A Soul Protocol object  = prose class
-⧉                      = object symbol
+⧉
 ```
 
 The symbol is the object.
@@ -26,7 +14,7 @@ In prose, call it **a Soul Protocol object**.
 
 ## Operational definition
 
-A Soul Protocol object is a digital semantic-machine vessel that can carry:
+A Soul Protocol object is a semantic-machine vessel that can carry:
 
 ```text
 human-readable meaning
@@ -106,8 +94,5 @@ The public standard is exactly:
 ```text
 .soul
 
-    (digital)
-A                Soul Protocol object
-
- ⧉
+⧉
 ```
