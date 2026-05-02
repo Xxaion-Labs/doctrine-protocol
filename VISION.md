@@ -5,10 +5,7 @@ Soul Protocol exists for the post-app age of AI.
 ```text
 .soul
 
-    (digital)
-A                Soul Protocol object
-
- ⧉
+⧉
 ```
 
 The old model traps intelligence inside product windows: chat boxes, assistant panes, plugins, wrappers, and disposable prompt sessions. Context is assembled, used, and then scattered.
