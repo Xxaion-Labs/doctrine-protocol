@@ -1,10 +1,7 @@
-# Soul Protocol
+# ⧉Soul Protocol
 
 [![Validate Soul Protocol](https://github.com/Xxaion-Labs/Soul-Protocol/actions/workflows/validate.yml/badge.svg)](https://github.com/Xxaion-Labs/Soul-Protocol/actions/workflows/validate.yml)
 
-```text
-⧉
-```
 
 **Soul Protocol is an AGPL public seed for sovereign AI-native computing: a mountable control spine where meaning becomes executable, behavior becomes inspectable, and the human remains root authority.**
 
